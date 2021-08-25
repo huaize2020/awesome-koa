@@ -4,7 +4,7 @@ English | [简体中文](./README.md)
 
 - [Table of contents](#table-of-contents)
 - [Official](#official)
-- [Repository](#repository)
+- [Framework](#framework)
 - [Middleware](#middleware)
   - [JSON](#json)
   - [JSONP](#jsonp)
@@ -13,13 +13,21 @@ English | [简体中文](./README.md)
   - [Session](#session)
   - [Logging](#logging)
   - [Error reporting](#error-reporting)
+  - [i18n](#i18n)
 
 ## Official
 
 - [Website](https://koajs.com/)
 - [Repository](https://github.com/koajs/koa)
+- [Wiki](https://github.com/koajs/koa/wiki)
 
-## Repository
+## Framework
+
+- [Egg](https://github.com/eggjs/egg) - Born to build better enterprise frameworks and apps with Node.js & Koa.
+- [ThinkJS](https://github.com/thinkjs/thinkjs) - Use full ES2015+ features to develop Node.js applications, Support TypeScript.
+- [lad](https://github.com/ladjs/lad) - The best Node.js framework. Made by a former Express TC and Koa team member.
+- [CabloyJS](https://github.com/zhennann/Cabloy) - A Node.js full-stack framework with workflow engine, based on koa + egg + vue + framework7.
+- [koatty](https://github.com/Koatty/koatty) - Koa2 + Typescript = Koatty. Use Typescript's decorator implement IOC and AOP.
 
 ## Middleware
 
@@ -66,3 +74,8 @@ English | [简体中文](./README.md)
 - [koa-json-error](https://github.com/koajs/json-error) - Error handler for pure-JSON apps.
 - [koa-errorhandler](https://github.com/nswbmw/koa-errorhandler) - Error handler middleware for koa.
 - [koa-error-slack](https://github.com/rturk/koa-error-slack) - Send Koa errors to Slack.
+
+### i18n
+
+- [koa-locale](https://github.com/koa-modules/locale) - Get locale variable from query, subdomain, accept-languages or cookie.
+- [koa-i18n](https://github.com/koa-modules/i18n) - Lightweight simple translation middleware based on  i18n-2.
