@@ -4,7 +4,7 @@
 
 - [目录](#目录)
 - [官方文档](#官方文档)
-- [GIT仓库](#git仓库)
+- [框架](#框架)
 - [中间件](#中间件)
   - [JSON](#json)
   - [JSONP](#jsonp)
@@ -13,10 +13,21 @@
   - [Session](#session)
   - [日志](#日志)
   - [错误报告](#错误报告)
+  - [i18n](#i18n)
 
 ## 官方文档
 
-## GIT仓库
+- [官网](https://koajs.com/)
+- [仓库](https://github.com/koajs/koa)
+- [Wiki](https://github.com/koajs/koa/wiki)
+
+## 框架
+
+- [Egg](https://github.com/eggjs/egg) - 一款自带工作流引擎的Node.js全栈框架。
+- [ThinkJS](https://github.com/thinkjs/thinkjs) - 支持ES2015 +的框架, 支持TypeScript。
+- [lad](https://github.com/ladjs/lad) - 最好的Node.js框架，由前Express和Koa团队成员创建。
+- [CabloyJS](https://github.com/zhennann/Cabloy) - 一款自带工作流引擎的Node.js全栈框架, 基于koa + egg + vue + framework7.
+- [koatty](https://github.com/Koatty/koatty) - Koa2 + Typescript = Koatty。使用Typescript装饰器实现了控制反转和面向切面编程。
 
 ## 中间件
 
@@ -63,3 +74,8 @@
 - [koa-json-error](https://github.com/koajs/json-error) - 纯 JSON 应用程序的错误处理程序。
 - [koa-errorhandler](https://github.com/nswbmw/koa-errorhandler) - Koa 的错误处理程序中间件。
 - [koa-error-slack](https://github.com/rturk/koa-error-slack) - 发送 Koa 错误到 Slack。
+
+### i18n
+
+- [koa-locale](https://github.com/koa-modules/locale) - 从查询参数、子域名、accept-languages或 cookie 中获取区域设置变量。
+- [koa-i18n](https://github.com/koa-modules/i18n) - 基于 i18n-2 的轻量级简单翻译中间件。
