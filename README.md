@@ -25,7 +25,7 @@
 
 ## 框架
 
-- [Egg](https://github.com/eggjs/egg) - 一款自带工作流引擎的Node.js全栈框架。 ![](https://img.shields.io/github/stars/eggjs/egg.svg?style=social&label=Star)  ![](https://img.shields.io/npm/dm/egg.svg?style=flat-square)
+- [Egg](https://github.com/eggjs/egg) - 为企业级框架和应用而生。 ![](https://img.shields.io/github/stars/eggjs/egg.svg?style=social&label=Star)  ![](https://img.shields.io/npm/dm/egg.svg?style=flat-square)
 - [ThinkJS](https://github.com/thinkjs/thinkjs) - 支持ES2015 +的框架, 支持TypeScript。 ![](https://img.shields.io/github/stars/thinkjs/thinkjs.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/thinkjs.svg?style=flat-square)
 - [lad](https://github.com/ladjs/lad) - 最好的Node.js框架，由前Express和Koa团队成员创建。 ![](https://img.shields.io/github/stars/ladjs/lad.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/lad.svg?style=flat-square)
 - [CabloyJS](https://github.com/zhennann/Cabloy) - 一款自带工作流引擎的Node.js全栈框架, 基于koa + egg + vue + framework7. ![](https://img.shields.io/github/stars/zhennann/Cabloy.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/cabloy.svg?style=flat-square)
