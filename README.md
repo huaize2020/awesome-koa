@@ -12,6 +12,7 @@
   - [模板引擎](#模板引擎)
   - [文件服务](#文件服务)
   - [Session](#session)
+  - [文档](#文档)
   - [安全](#安全)
   - [日志](#日志)
   - [错误报告](#错误报告)
@@ -66,6 +67,11 @@
 - [koa-generic-session](https://github.com/koajs/generic-session) - 基于内存、redis或其他的Session存储中间件。 ![](https://img.shields.io/github/stars/koajs/generic-session.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-generic-session.svg?style=flat-square)
 - [koa-redis](https://github.com/koajs/koa-redis) - 使用Redis的Koa Session。 ![](https://img.shields.io/github/stars/koajs/koa-redis.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-redis.svg?style=flat-square)
 - [koa-redis-session-sets](https://github.com/koajs/redis-session-sets) - 带有字段引用交叉集的 Koa Redis Session。 ![](https://img.shields.io/github/stars/koajs/redis-session-sets.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-redis-session-sets.svg?style=flat-square)
+
+### 文档
+
+- [koa-docs](https://github.com/a-s-o/koa-docs) - 用于自动生成和提供API文档的Koa中间件。 ![](https://img.shields.io/github/stars/a-s-o/koa-docs.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-docs.svg?style=flat-square)
+- [koa-joi-swagger](https://github.com/zaaack/koa-joi-swagger) - 使用 joi 模式验证请求和响应，并生成 swagger 文档以创建漂亮的 API 文档。 ![](https://img.shields.io/github/stars/zaaack/koa-joi-swagger.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-joi-swagger.svg?style=flat-square)
 
 ### 安全
 
