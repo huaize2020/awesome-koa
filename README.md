@@ -12,6 +12,7 @@
   - [工具](#工具)
   - [模板引擎](#模板引擎)
   - [文件服务](#文件服务)
+  - [压缩](#压缩)
   - [Session](#session)
   - [文档](#文档)
   - [安全](#安全)
@@ -64,13 +65,37 @@
 
 ### 模板引擎
 
-- [koa-ejs](https://github.com/koajs/ejs) - Koa视图渲染中间件，支持ejs所有特性。 ![](https://img.shields.io/github/stars/koajs/ejs.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-ejs.svg?style=flat-square)
+- [koa-views](https://github.com/queckezz/koa-views) - Render your views with almost any templating engine ![](https://img.shields.io/github/stars/queckezz/koa-views.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-views.svg?style=flat-square)
+- [koa-ejs](https://github.com/koajs/ejs) -  Koa视图渲染中间件，支持ejs所有特性。 ![](https://img.shields.io/github/stars/koajs/ejs.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-ejs.svg?style=flat-square)
 - [koa-react-view](https://github.com/koajs/react-view) - Koa视图渲染中间件，用于在服务端渲染React组件。 ![](https://img.shields.io/github/stars/koajs/react-view.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-react-view.svg?style=flat-square)
+- [koa-hbs](https://github.com/jwilm/koa-hbs) - Express风格视图渲染。 ![](https://img.shields.io/github/stars/jwilm/koa-hbs.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-hbs.svg?style=flat-square)
+- [koa-pug](https://github.com/chrisyip/koa-pug) - [Pug](https://pugjs.org/api/getting-started.html) (原名Jade) 中间件。 ![](https://img.shields.io/github/stars/chrisyip/koa-pug.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-pug.svg?style=flat-square)
+- [koa-handlebars](https://github.com/dominicbarnes/koa-handlebars) - [Handlebars](http://handlebarsjs.com/)视图渲染中间件。 ![](https://img.shields.io/github/stars/dominicbarnes/koa-handlebars.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-handlebars.svg?style=flat-square)
+- [koa-swig](https://github.com/koa-modules/swig) - [swig](http://paularmstrong.github.io/swig/)视图渲染中间件, 支持标签，过滤器和插件。 ![](https://img.shields.io/github/stars/koa-modules/swig.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-swig.svg?style=flat-square)
+- [koa-vue-view](https://github.com/imingyu/koa-vue-view) - Koa视图渲染中间件，用于在服务端渲染Vue组件。![](https://img.shields.io/github/stars/imingyu/koa-vue-view.svg?style=social&label=Star) [![image](https://img.shields.io/npm/dt/koa-vue-view.svg)](https://www.npmjs.com/package/koa-vue-view)
+- [koa-view](https://github.com/d-band/koa-view) - [Nunjucks](http://mozilla.github.io/nunjucks/)视图渲染中间件。 ![](https://img.shields.io/github/stars/d-band/koa-view.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-view.svg?style=flat-square)
+- [koa-nunjucks-next](https://github.com/beliefgp/koa-nunjucks-next) - [Nunjucks](http://mozilla.github.io/nunjucks/)视图渲染中间件, 支持异步过滤器，渲染原始字符串。 ![](https://img.shields.io/github/stars/beliefgp/koa-nunjucks-next.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-nunjucks-next.svg?style=flat-square)
+- [koa-dom](https://github.com/juliangruber/koa-dom) - 服务端渲染DOM模板。![](https://img.shields.io/github/stars/juliangruber/koa-dom.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-dom.svg?style=flat-square)
+- [co-ejs](https://github.com/nswbmw/co-ejs) - koa ejs视图渲染中间件。 ![](https://img.shields.io/github/stars/nswbmw/co-ejs.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/co-ejs.svg?style=flat-square)
+- [koa-xtpl](https://github.com/zce/koa-xtpl) - xtemplate模板引擎的封装(使其在Koa 2使用更简单). ![](https://img.shields.io/github/stars/zce/koa-xtpl.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-xtpl.svg?style=flat-square)
+- [koa-nunjucks-async](https://github.com/uniibu/koa-nunjucks-async) - 一个Koa@2 [Nunjucks](http://mozilla.github.io/nunjucks/)视图渲染中间件。使用 Node 的原生 `async/await` 和 `util.promisify`。 还将 ctx.state 暴露给渲染模板。 ![](https://img.shields.io/github/stars/uniibu/koa-nunjucks-async.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-nunjucks-async.svg?style=flat-square)
+- [koajs-nunjucks](https://github.com/Faeson/koajs-nunjucks) - [Nunjucks](http://mozilla.github.io/nunjucks/)视图渲染中间件。 ![](https://img.shields.io/github/stars/Faeson/koajs-nunjucks.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koajs-nunjucks.svg?style=flat-square)
+- [koa-swig-render](https://github.com/JiangJie/koa-swig-render) - [swig](http://paularmstrong.github.io/swig/)视图渲染中间件. ![](https://img.shields.io/github/stars/JiangJie/koa-swig-render.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-swig-render.svg?style=flat-square)
+- [koa2-jsx](https://github.com/artdecocode/koa2-jsx) - [JSX](https://reactjs.org/docs/introducing-jsx.html) 使用服务器端 React 方法渲染，Redux 支持从上下文设置模板数据。可用于创建通用应用程序。 ![](https://img.shields.io/github/stars/artdecocode/koa2-jsx.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa2-jsx.svg?style=flat-square)
+- [koahub-handlebars](https://github.com/koahubjs/koahub-handlebars) - Handlebars视图渲染中间件, 使用async/await ![](https://img.shields.io/github/stars/koahubjs/koahub-handlebars.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koahub-handlebars.svg?style=flat-square)
 
 ### 文件服务
 
 - [koa-static](https://github.com/koajs/static) - 静态文件服务中间件。 ![](https://img.shields.io/github/stars/koajs/static.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-static.svg?style=flat-square)
 - [koa-send](https://github.com/koajs/send) - 传送静态文件。 ![](https://img.shields.io/github/stars/koajs/send.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-send.svg?style=flat-square)
+
+### 压缩
+
+- [koa-compress](https://github.com/koajs/compress) - 用于压缩的中间件。 ![](https://img.shields.io/github/stars/koajs/compress.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-compress.svg?style=flat-square)
+- [koa-compressor](https://github.com/koajs/compressor) - SPDY/HTTP2压缩中间件 (总是gzips) ![](https://img.shields.io/github/stars/koajs/compressor.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-compressor.svg?style=flat-square)
+- [kompression](https://github.com/tuananh/kompression) - koa-compress的fork版本，用于支持brotli压缩 ![](https://img.shields.io/github/stars/tuananh/kompression.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/kompression.svg?style=flat-square)
+- [koa-minify](https://github.com/coderaiser/koa-minify) - 将 js、css、html 和 img最小化的中间件。![](https://img.shields.io/github/stars/coderaiser/koa-minify.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-minify.svg?style=flat-square)
+- [koa-uglify2](https://github.com/grayleonard/koa-uglify2) - 带有缓存的 js 的uglify中间件。 ![](https://img.shields.io/github/stars/grayleonard/koa-uglify2.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-uglify2.svg?style=flat-square)
 
 ### Session
 
