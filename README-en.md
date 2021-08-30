@@ -12,6 +12,7 @@ English | [简体中文](./README.md)
   - [Templating](#templating)
   - [File Serving](#file-serving)
   - [Session](#session)
+  - [Documentation](#documentation)
   - [Security](#security)
   - [Logging](#logging)
   - [Error reporting](#error-reporting)
@@ -67,6 +68,10 @@ English | [简体中文](./README.md)
 - [koa-redis](https://github.com/koajs/koa-redis) - koa session with redis ![](https://img.shields.io/github/stars/koajs/koa-redis.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-redis.svg?style=flat-square)
 - [koa-redis-session-sets](https://github.com/koajs/redis-session-sets) - Koa Redis sessions with field-referencing cross sets ![](https://img.shields.io/github/stars/koajs/redis-session-sets.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-redis-session-sets.svg?style=flat-square)
 
+### Documentation
+
+- [koa-docs](https://github.com/a-s-o/koa-docs) - Koa middleware for automatically generating and serving API documentation ![](https://img.shields.io/github/stars/a-s-o/koa-docs.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-docs.svg?style=flat-square)
+- [koa-joi-swagger](https://github.com/zaaack/koa-joi-swagger) - Using joi schema to validate request & response, and generate swagger document to create beautiful API documents. ![](https://img.shields.io/github/stars/zaaack/koa-joi-swagger.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-joi-swagger.svg?style=flat-square)
 
 ### Security
 
