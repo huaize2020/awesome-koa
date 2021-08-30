@@ -15,6 +15,7 @@ English | [简体中文](./README.md)
   - [File Serving](#file-serving)
   - [Compression](#compression)
   - [Session](#session)
+  - [Rate Limiting](#rate-limiting)
   - [Documentation](#documentation)
   - [Security](#security)
   - [Logging](#logging)
@@ -112,6 +113,13 @@ English | [简体中文](./README.md)
 - [koa-generic-session](https://github.com/koajs/generic-session) - koa session store with memory, redis or others. ![](https://img.shields.io/github/stars/koajs/generic-session.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-generic-session.svg?style=flat-square)
 - [koa-redis](https://github.com/koajs/koa-redis) - koa session with redis ![](https://img.shields.io/github/stars/koajs/koa-redis.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-redis.svg?style=flat-square)
 - [koa-redis-session-sets](https://github.com/koajs/redis-session-sets) - Koa Redis sessions with field-referencing cross sets ![](https://img.shields.io/github/stars/koajs/redis-session-sets.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-redis-session-sets.svg?style=flat-square)
+
+### Rate Limiting
+
+- [rate-limiter-flexible](https://github.com/animir/node-rate-limiter-flexible) - Limit requests by key with atomic increments in single process or distributed environment and protect against DDoS and brute force attacks at any scale in process Memory, Cluster or PM2, Redis, Memcached, MongoDb, etc ![](https://img.shields.io/github/stars/animir/node-rate-limiter-flexible.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/rate-limiter-flexible.svg?style=flat-square)
+- [ratelimit](https://github.com/koajs/ratelimit) - Rate limiting middleware ![](https://img.shields.io/github/stars/koajs/ratelimit.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-ratelimit.svg?style=flat-square)
+- [koa-better-ratelimit](https://github.com/tunnckoCore/koa-better-ratelimit) - Support custom stores, custom ID, custom error messages and custom headers. ![](https://img.shields.io/github/stars/tunnckoCore/koa-better-ratelimit.svg?style=social&label=Star)  ![](https://img.shields.io/npm/dm/koa-better-ratelimit.svg?style=flat-square)
+- [koa-ip-filter](https://github.com/tunnckoCore/koa-ip-filter) - Koa middleware to filter request IPs or custom ID with glob patterns, array, string, regexp or matcher function. Support custom 403 Forbidden message and custom ID. ![](https://img.shields.io/github/stars/tunnckoCore/koa-ip-filter.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-ip-filter.svg?style=flat-square)
 
 ### Documentation
 
