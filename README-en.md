@@ -8,6 +8,7 @@ English | [简体中文](./README.md)
 - [Middleware](#middleware)
   - [JSON](#json)
   - [JSONP](#jsonp)
+  - [Body Parsing](#body-parsing)
 - [Utilities](#utilities)
   - [Templating](#templating)
   - [File Serving](#file-serving)
@@ -47,6 +48,16 @@ English | [简体中文](./README.md)
 - [koa-safe-jsonp](https://github.com/koajs/koa-safe-jsonp) - Safe jsonp plugins for koa. ![](https://img.shields.io/github/stars/koajs/koa-safe-jsonp.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-safe-jsonp.svg?style=flat-square)
 - [koa-response-jsonp](https://github.com/keenwon/koa-response-jsonp) - koa jsonp middleware. ![](https://img.shields.io/github/stars/keenwon/koa-response-jsonp.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-response-jsonp.svg?style=flat-square)
 
+### Body Parsing
+
+- [koa-bodyparser](https://github.com/koajs/body-parser) - A body parser for koa, base on co-body. ![](https://img.shields.io/github/stars/koajs/body-parser.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-bodyparser.svg?style=flat-square)
+- [koa-body](https://github.com/dlau/koa-body) - A full-featured koa body parser middleware. Supports multipart, urlencoded, and json request bodies. Provides the same functionality as Express's bodyParser - multer. ![](https://img.shields.io/github/stars/dlau/koa-body.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-body.svg?style=flat-square)
+- [koa-better-body](https://github.com/tunnckoCore/opensource/tree/master/@packages/koa-better-body) - Full-featured koa body parser! Support parsing text, buffer, json, json patch, json api, csp-report, multipart, form and urlencoded bodies. Works for koa@1, koa@2 and will work for koa@3. ![](https://img.shields.io/github/stars/tunnckoCore/opensource.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-better-body.svg?style=flat-square)
+- [koa-multer](https://github.com/koa-modules/multer) - Multer is a node.js middleware for handling multipart/form-data for koa. multer wrapper for koa's middleware. ![](https://img.shields.io/github/stars/koa-modules/multer.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-multer.svg?style=flat-square)
+- [koa-xml-body](https://github.com/creeperyang/koa-xml-body) - Parse xml http request bodies ![](https://img.shields.io/github/stars/creeperyang/koa-xml-body.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-xml-body.svg?style=flat-square)
+- [koa-busboy](https://github.com/dominhhai/koa-busboy) - Handling multipart/form-data for koa v2. ![](https://img.shields.io/github/stars/dominhhai/koa-busboy.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-busboy.svg?style=flat-square)
+- [koa-json-body](https://github.com/venables/koa-json-body) - Parse valid JSON request bodies. ![](https://img.shields.io/github/stars/venables/koa-json-body.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-json-body.svg?style=flat-square)
+
 ## Utilities
 
 - [koa-convert](https://github.com/gyson/koa-convert) - convert koa legacy ( v0.x & v1.x ) generator middleware to promise middleware ( v2.x ). ![](https://img.shields.io/github/stars/gyson/koa-convert.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-convert.svg?style=flat-square)
@@ -83,7 +94,6 @@ English | [简体中文](./README.md)
 - [koa-ip-filter](https://github.com/tunnckoCore/koa-ip-filter) - Middleware for koa that filters IPs against glob patterns, RegExp, string or array of globs using `ip-filter` and `micromatch`. Support custom 403 Forbidden message and custom ID.  ![](https://img.shields.io/github/stars/tunnckoCore/koa-ip-filter.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-ip-filter.svg?style=flat-square)
 - [koa-protect](https://github.com/may215/koa-protect) - Security module for koa applications. ![](https://img.shields.io/github/stars/may215/koa-protect.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-protect.svg?style=flat-square)
 - [koa-acl](https://github.com/Jackong/koa-acl) - ACL middleware for koa. ![](https://img.shields.io/github/stars/Jackong/koa-acl.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-acl.svg?style=flat-square)
-- [node-security-voters](https://github.com/zemd/node-security-voters) - ACL voters. ![](https://img.shields.io/github/stars/zemd/node-security-voters.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/node-security-voters.svg?style=flat-square)
 
 ### Logging
 
