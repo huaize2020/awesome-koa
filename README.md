@@ -111,6 +111,8 @@
 - [koa-session](https://github.com/koajs/session) - 简单基于Cookie的Session中间件。 ![](https://img.shields.io/github/stars/koajs/session.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-session.svg?style=flat-square)
 - [koa-generic-session](https://github.com/koajs/generic-session) - 基于内存、redis或其他的Session存储中间件。 ![](https://img.shields.io/github/stars/koajs/generic-session.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-generic-session.svg?style=flat-square)
 - [koa-redis](https://github.com/koajs/koa-redis) - 使用Redis的Koa Session。 ![](https://img.shields.io/github/stars/koajs/koa-redis.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-redis.svg?style=flat-square)
+- [koa-session2](https://github.com/Secbone/koa-session2) - Koa2 的中间件，用于获取/设置与自定义存储（如 Redis 或 mongodb）一起使用的会话。 ![](https://img.shields.io/github/stars/Secbone/koa-session2.svg?style=social&label=Star)  ![](https://img.shields.io/npm/dm/koa-session2.svg?style=flat-square)
+- [koa-session-minimal](https://github.com/longztian/koa-session-minimal) - 对`koa-generic-session`的`Koa 2`重写，支持其核心功能和存储。 ![](https://img.shields.io/github/stars/longztian/koa-session-minimal.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-session-minimal.svg?style=flat-square)
 - [koa-redis-session-sets](https://github.com/koajs/redis-session-sets) - 带有字段引用交叉集的 Koa Redis Session。 ![](https://img.shields.io/github/stars/koajs/redis-session-sets.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-redis-session-sets.svg?style=flat-square)
 
 ### 限流
