@@ -112,6 +112,8 @@ English | [简体中文](./README.md)
 - [koa-session](https://github.com/koajs/session) - Simple cookie-based session middleware ![](https://img.shields.io/github/stars/koajs/session.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-session.svg?style=flat-square)
 - [koa-generic-session](https://github.com/koajs/generic-session) - koa session store with memory, redis or others. ![](https://img.shields.io/github/stars/koajs/generic-session.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-generic-session.svg?style=flat-square)
 - [koa-redis](https://github.com/koajs/koa-redis) - koa session with redis ![](https://img.shields.io/github/stars/koajs/koa-redis.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-redis.svg?style=flat-square)
+- [koa-session2](https://github.com/Secbone/koa-session2) - Middleware for Koa2 to get/set session use with custom stores such as Redis or mongodb. ![](https://img.shields.io/github/stars/Secbone/koa-session2.svg?style=social&label=Star)  ![](https://img.shields.io/npm/dm/koa-session2.svg?style=flat-square)
+- [koa-session-minimal](https://github.com/longztian/koa-session-minimal) - a `Koa 2` rewrite of `koa-generic-session`, support its core functionalities and stores ![](https://img.shields.io/github/stars/longztian/koa-session-minimal.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-session-minimal.svg?style=flat-square)
 - [koa-redis-session-sets](https://github.com/koajs/redis-session-sets) - Koa Redis sessions with field-referencing cross sets ![](https://img.shields.io/github/stars/koajs/redis-session-sets.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-redis-session-sets.svg?style=flat-square)
 
 ### Rate Limiting
