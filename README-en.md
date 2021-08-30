@@ -9,9 +9,10 @@ English | [简体中文](./README.md)
   - [JSON](#json)
   - [JSONP](#jsonp)
   - [Body Parsing](#body-parsing)
-- [Utilities](#utilities)
+  - [Utilities](#utilities)
   - [Templating](#templating)
   - [File Serving](#file-serving)
+  - [Compression](#compression)
   - [Session](#session)
   - [Documentation](#documentation)
   - [Security](#security)
@@ -58,19 +59,43 @@ English | [简体中文](./README.md)
 - [koa-busboy](https://github.com/dominhhai/koa-busboy) - Handling multipart/form-data for koa v2. ![](https://img.shields.io/github/stars/dominhhai/koa-busboy.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-busboy.svg?style=flat-square)
 - [koa-json-body](https://github.com/venables/koa-json-body) - Parse valid JSON request bodies. ![](https://img.shields.io/github/stars/venables/koa-json-body.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-json-body.svg?style=flat-square)
 
-## Utilities
+### Utilities
 
 - [koa-convert](https://github.com/gyson/koa-convert) - convert koa legacy ( v0.x & v1.x ) generator middleware to promise middleware ( v2.x ). ![](https://img.shields.io/github/stars/gyson/koa-convert.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-convert.svg?style=flat-square)
 
 ### Templating
 
+- [koa-views](https://github.com/queckezz/koa-views) - Render your views with almost any templating engine ![](https://img.shields.io/github/stars/queckezz/koa-views.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-views.svg?style=flat-square)
 - [koa-ejs](https://github.com/koajs/ejs) - A koa view render middleware, support all feature of ejs. ![](https://img.shields.io/github/stars/koajs/ejs.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-ejs.svg?style=flat-square)
 - [koa-react-view](https://github.com/koajs/react-view) - A Koa view engine which renders React components on server. ![](https://img.shields.io/github/stars/koajs/react-view.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-react-view.svg?style=flat-square)
+- [koa-hbs](https://github.com/jwilm/koa-hbs) - Express-style Handlebars view rendering. ![](https://img.shields.io/github/stars/jwilm/koa-hbs.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-hbs.svg?style=flat-square)
+- [koa-pug](https://github.com/chrisyip/koa-pug) - a [Pug](https://pugjs.org/api/getting-started.html) (renamed Jade) middleware for Koa. ![](https://img.shields.io/github/stars/chrisyip/koa-pug.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-pug.svg?style=flat-square)
+- [koa-handlebars](https://github.com/dominicbarnes/koa-handlebars) - [Handlebars](http://handlebarsjs.com/) view rendering. ![](https://img.shields.io/github/stars/dominicbarnes/koa-handlebars.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-handlebars.svg?style=flat-square)
+- [koa-swig](https://github.com/koa-modules/swig) - Focus on [swig](http://paularmstrong.github.io/swig/), support tags, filters, and extensions. ![](https://img.shields.io/github/stars/koa-modules/swig.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-swig.svg?style=flat-square)
+- [koa-vue-view](https://github.com/imingyu/koa-vue-view) - A Koa view engine which renders Vue components on server. ![](https://img.shields.io/github/stars/imingyu/koa-vue-view.svg?style=social&label=Star) [![image](https://img.shields.io/npm/dt/koa-vue-view.svg)](https://www.npmjs.com/package/koa-vue-view)
+- [koa-view](https://github.com/d-band/koa-view) - [Nunjucks](http://mozilla.github.io/nunjucks/) view rendering. ![](https://img.shields.io/github/stars/d-band/koa-view.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-view.svg?style=flat-square)
+- [koa-nunjucks-next](https://github.com/beliefgp/koa-nunjucks-next) - [Nunjucks](http://mozilla.github.io/nunjucks/) view rendering, support asynchronous filters, render raw string. ![](https://img.shields.io/github/stars/beliefgp/koa-nunjucks-next.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-nunjucks-next.svg?style=flat-square)
+- [koa-dom](https://github.com/juliangruber/koa-dom) - server-side dom templating ![](https://img.shields.io/github/stars/juliangruber/koa-dom.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-dom.svg?style=flat-square)
+- [co-ejs](https://github.com/nswbmw/co-ejs) - koa ejs view render middleware. ![](https://img.shields.io/github/stars/nswbmw/co-ejs.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/co-ejs.svg?style=flat-square)
+- [koa-xtpl](https://github.com/zce/koa-xtpl) - A node.js wrapper around xtemplate engine (easier for Koa 2). ![](https://img.shields.io/github/stars/zce/koa-xtpl.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-xtpl.svg?style=flat-square)
+- [koa-nunjucks-async](https://github.com/uniibu/koa-nunjucks-async) - A Koa@2 middleware for rendering [Nunjucks](http://mozilla.github.io/nunjucks/) templates. Uses Node's native `async/await`, and `util.promisify`. Also exposes ctx.state to rendered templates. ![](https://img.shields.io/github/stars/uniibu/koa-nunjucks-async.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-nunjucks-async.svg?style=flat-square)
+- [koajs-nunjucks](https://github.com/Faeson/koajs-nunjucks) - [Nunjucks](http://mozilla.github.io/nunjucks/) view rendering. ![](https://img.shields.io/github/stars/Faeson/koajs-nunjucks.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koajs-nunjucks.svg?style=flat-square)
+- [koa-swig-render](https://github.com/JiangJie/koa-swig-render) - Focus on - [swig](http://paularmstrong.github.io/swig/), used as a middleware. ![](https://img.shields.io/github/stars/JiangJie/koa-swig-render.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-swig-render.svg?style=flat-square)
+- [koa2-jsx](https://github.com/artdecocode/koa2-jsx) - [JSX](https://reactjs.org/docs/introducing-jsx.html) rendering using server-side React methods, with Redux support to set templating data from context. Can be used to create universal application. ![](https://img.shields.io/github/stars/artdecocode/koa2-jsx.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa2-jsx.svg?style=flat-square)
+- [koahub-handlebars](https://github.com/koahubjs/koahub-handlebars) - Handlebars view rendering, Use async/await ![](https://img.shields.io/github/stars/koahubjs/koahub-handlebars.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koahub-handlebars.svg?style=flat-square)
 
 ### File Serving
 
 - [koa-static](https://github.com/koajs/static) - Static file server middleware. ![](https://img.shields.io/github/stars/koajs/static.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-static.svg?style=flat-square)
 - [koa-send](https://github.com/koajs/send) - Transfer static files. ![](https://img.shields.io/github/stars/koajs/send.svg?style=social&label=Star)
+
+### Compression
+
+- [koa-compress](https://github.com/koajs/compress) - Compression middleware  ![](https://img.shields.io/github/stars/koajs/compress.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-compress.svg?style=flat-square)
+- [koa-compressor](https://github.com/koajs/compressor) - SPDY/HTTP2 compression middleware (always gzips) ![](https://img.shields.io/github/stars/koajs/compressor.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-compressor.svg?style=flat-square)
+- [kompression](https://github.com/tuananh/kompression) - forked of koa-compress with support for brotli compression ![](https://img.shields.io/github/stars/tuananh/kompression.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/kompression.svg?style=flat-square)
+- [koa-minify](https://github.com/coderaiser/koa-minify) - minify middleware for js, css, html and img. ![](https://img.shields.io/github/stars/coderaiser/koa-minify.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-minify.svg?style=flat-square)
+- [koa-uglify2](https://github.com/grayleonard/koa-uglify2) - uglify middleware for js with caching. ![](https://img.shields.io/github/stars/grayleonard/koa-uglify2.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-uglify2.svg?style=flat-square)
 
 ### Session
 
