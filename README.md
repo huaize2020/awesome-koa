@@ -13,6 +13,7 @@
   - [工具](#工具)
   - [模板引擎](#模板引擎)
   - [文件服务](#文件服务)
+  - [路由和挂载](#路由和挂载)
   - [压缩](#压缩)
   - [Session](#session)
   - [限流](#限流)
@@ -97,6 +98,38 @@
 
 - [koa-static](https://github.com/koajs/static) - 静态文件服务中间件。 ![](https://img.shields.io/github/stars/koajs/static.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-static.svg?style=flat-square)
 - [koa-send](https://github.com/koajs/send) - 传送静态文件。 ![](https://img.shields.io/github/stars/koajs/send.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-send.svg?style=flat-square)
+
+### 路由和挂载
+
+- [koa-router](https://github.com/koajs/koa-router) - Koa路由中间件。 ![](https://img.shields.io/github/stars/koajs/koa-router.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/@koa/router.svg?style=flat-square)
+- [koa-mount](https://github.com/koajs/mount) - 挂载Koa应用作为中间件。 ![](https://img.shields.io/github/stars/koajs/mount.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-mount.svg?style=flat-square)
+- [koa-route](https://github.com/koajs/route) - 一个简单的路由中间件。 ![](https://img.shields.io/github/stars/koajs/route.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-route.svg?style=flat-square)
+- [koa-joi-router](https://github.com/koajs/joi-router) - 可配置、输入和输出校验规则的路由。 ![](https://img.shields.io/github/stars/koajs/joi-router.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-joi-router.svg?style=flat-square)
+- [koa-trie-router](https://github.com/koajs/trie-router) - 基于字典树的路由。![](https://img.shields.io/github/stars/koajs/trie-router.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-trie-router.svg?style=flat-square)
+- [koa-tree-router](https://github.com/steambap/koa-tree-router) - 基于树结构的高性能路由。 ![](https://img.shields.io/github/stars/steambap/koa-tree-router.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-tree-router.svg?style=flat-square)
+- [koa-oai-router](https://github.com/BiteBit/koa-oai-router) - Koa 路由，基于 OpenAPI、Swagger 和 Json Schema。 ![](https://img.shields.io/github/stars/BiteBit/koa-oai-router.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-oai-router.svg?style=flat-square)
+- [koa-rewrite](https://github.com/koajs/rewrite) - URL重写中间件。 ![](https://img.shields.io/github/stars/koajs/rewrite.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-rewrite.svg?style=flat-square)
+- [koa-better-router](https://github.com/tunnckoCore/koa-better-router) - 稳定和可爱的`koa`路由，使用 `path-match`。 轻松构建强大、灵活的RESTful API。 ![](https://img.shields.io/github/stars/tunnckoCore/koa-better-router.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-better-router.svg?style=flat-square)
+- [koa-qs](https://github.com/koajs/qs) - 支持嵌套的 query string。 ![](https://img.shields.io/github/stars/koajs/qs.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-qs.svg?style=flat-square)
+- [koa-rest-router](https://github.com/tunnckoCore/koa-rest-router) - 最强大、灵活和可组合的路由中间件，用于轻松构建企业 RESTful API！ ![](https://img.shields.io/github/stars/tunnckoCore/koa-rest-router.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-rest-router.svg?style=flat-square)
+- [koa-66](https://github.com/menems/koa-66) - 用于koa v2路由。 ![](https://img.shields.io/github/stars/menems/koa-66.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-66.svg?style=flat-square)
+- [koa-react-router](https://github.com/afenton90/koa-react-router) - koa 2 中间件，用于 React 服务器端渲染和路由使用 [react-router](https://github.com/ReactTraining/react-router) ![](https://img.shields.io/github/stars/afenton90/koa-react-router.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-react-router.svg)
+- [koa-mapper](https://github.com/d-band/koa-mapper) - 更好的路由器支持参数验证和 OpenAPI 生成。 ![](https://img.shields.io/github/stars/d-band/koa-mapper.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-mapper.svg?style=flat-square)
+- [koa-params](https://github.com/segmentio/koa-params) - 对 koa-route 的 Express 样式参数支持。 ![](https://img.shields.io/github/stars/segmentio/koa-params.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-params.svg?style=flat-square)
+- [koa-frouter](https://github.com/MangroveTech/koa-frouter) - File as `path`. ![](https://img.shields.io/github/stars/MangroveTech/koa-frouter.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-frouter.svg?style=flat-square)
+- [koa-dec-router](https://github.com/zaaack/koa-dec-router) - 一个 ES6 装饰器 + 基于类的路由器，支持继承、覆盖、优先级、自动加载控制器等。底层使用[koa-router](https://github.com/alexmingoia/koa-router)。 ![](https://img.shields.io/github/stars/zaaack/koa-dec-router.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-dec-router.svg)
+- [koa-routing](https://github.com/ivpusic/koa-routing) - 路由中间件。 ![](https://img.shields.io/github/stars/ivpusic/koa-routing.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-routing.svg?style=flat-square)
+- [kroute](https://github.com/blakeembrey/kroute) - 模块化 Koa 路由器中间件，带有 Express 风格的路由和中间件挂载。 ![](https://img.shields.io/github/stars/blakeembrey/kroute.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/kroute.svg?style=flat-square)
+- [koa-methodoverride](https://github.com/koa-modules/methodoverride) - HTTP 方法覆盖中间件 ![](https://img.shields.io/github/stars/koa-modules/methodoverride.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-methodoverride.svg?style=flat-square)
+- [koa-simple-router](https://github.com/gyson/koa-simple-router) - 简单快速的 REST 路由中间件（支持koa 2.x） ![](https://img.shields.io/github/stars/gyson/koa-simple-router.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-simple-router.svg?style=flat-square)
+- [koa-sub-domain](https://github.com/Student007/koa-sub-domain) - 处理多级和子域通配符的中间件。 ![](https://img.shields.io/github/stars/Student007/koa-sub-domain.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-sub-domain.svg?style=flat-square)
+- [koa2-router](https://github.com/xinpianchang/koa2-router) - 一个Express风格的路由中间件。 ![](https://img.shields.io/github/stars/xinpianchang/koa2-router.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa2-router.svg?style=flat-square)
+- [impress-router](https://github.com/magicdawn/impress-router) - Express风格的路由。 ![](https://img.shields.io/github/stars/magicdawn/impress-router.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/impress-router.svg?style=flat-square)
+- [koa-bestest-router](https://github.com/TehShrike/koa-bestest-router) - Koa 的路由器中间件。无突变(Mutation-free)，少于100行  ![](https://img.shields.io/github/stars/TehShrike/koa-bestest-router.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-bestest-router.svg?style=flat-square)
+- [koa-joi-controllers](https://github.com/giall/koa-joi-controllers) - 对 `koa-joi-router` 封装的控制器装饰器。 ![](https://img.shields.io/github/stars/giall/koa-joi-controllers.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-joi-controllers.svg?style=flat-square)
+- [koa-ovenware](https://github.com/zedgu/koa-ovenware) - Koa 的自动模型/控制器加载器。 ![](https://img.shields.io/github/stars/zedgu/koa-ovenware.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-ovenware.svg?style=flat-square)
+- [koa-forward-request](https://github.com/nswbmw/koa-forward-request) - 转发请求。![](https://img.shields.io/github/stars/nswbmw/koa-forward-request.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-forward-request.svg?style=flat-square)
+- [koa-architect](https://github.com/nervgh/koa-architect) - 自动挂载和路由。 ![](https://img.shields.io/github/stars/nervgh/koa-architect.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-architect.svg?style=flat-square)
 
 ### 压缩
 
