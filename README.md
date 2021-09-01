@@ -71,7 +71,9 @@
 
 ### 工具
 
+- [koa-compose](https://github.com/koajs/compose) - 组合多个中间件为一个。![](https://img.shields.io/github/stars/koajs/compose.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-compose.svg?style=flat-square)
 - [koa-convert](https://github.com/gyson/koa-convert) - 将koa legacy (v0.x & v1.x版本) 生成器中间件转化为promise中间件(v2.x)。 ![](https://img.shields.io/github/stars/gyson/koa-convert.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-convert.svg?style=flat-square)
+- [koa-useragent](https://github.com/rvboris/koa-useragent) - 快速显露user-agent的中间件。 ![](https://img.shields.io/github/stars/rvboris/koa-useragent.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-useragent.svg?style=flat-square)
 
 ### 模板引擎
 
@@ -128,6 +130,7 @@
 - [koa-rest-router](https://github.com/tunnckoCore/koa-rest-router) - 最强大、灵活和可组合的路由中间件，用于轻松构建企业 RESTful API！ ![](https://img.shields.io/github/stars/tunnckoCore/koa-rest-router.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-rest-router.svg?style=flat-square)
 - [koa-66](https://github.com/menems/koa-66) - 用于koa v2路由。 ![](https://img.shields.io/github/stars/menems/koa-66.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-66.svg?style=flat-square)
 - [koa-react-router](https://github.com/afenton90/koa-react-router) - koa 2 中间件，用于 React 服务器端渲染和路由使用 [react-router](https://github.com/ReactTraining/react-router) ![](https://img.shields.io/github/stars/afenton90/koa-react-router.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-react-router.svg)
+- [koa-combine-routers](https://github.com/saadq/koa-combine-routers) - 组合多个[@koa/router](https://github.com/koajs/koa-router)实例。 ![](https://img.shields.io/github/stars/saadq/koa-combine-routers.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-combine-routers.svg?style=flat-square)
 - [koa-mapper](https://github.com/d-band/koa-mapper) - 更好的路由器支持参数验证和 OpenAPI 生成。 ![](https://img.shields.io/github/stars/d-band/koa-mapper.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-mapper.svg?style=flat-square)
 - [koa-params](https://github.com/segmentio/koa-params) - 对 koa-route 的 Express 样式参数支持。 ![](https://img.shields.io/github/stars/segmentio/koa-params.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-params.svg?style=flat-square)
 - [koa-frouter](https://github.com/MangroveTech/koa-frouter) - File as `path`. ![](https://img.shields.io/github/stars/MangroveTech/koa-frouter.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-frouter.svg?style=flat-square)
