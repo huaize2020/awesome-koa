@@ -72,7 +72,9 @@ English | [简体中文](./README.md)
 
 ### Utilities
 
-- [koa-convert](https://github.com/gyson/koa-convert) - convert koa legacy ( v0.x & v1.x ) generator middleware to promise middleware ( v2.x ). ![](https://img.shields.io/github/stars/gyson/koa-convert.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-convert.svg?style=flat-square)
+- [koa-compose](https://github.com/koajs/compose) - Compose several middleware into one. ![](https://img.shields.io/github/stars/koajs/compose.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-compose.svg?style=flat-square)
+- [koa-convert](https://github.com/gyson/koa-convert) - Convert koa legacy ( v0.x & v1.x ) generator middleware to promise middleware ( v2.x ). ![](https://img.shields.io/github/stars/gyson/koa-convert.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-convert.svg?style=flat-square)
+- [koa-useragent](https://github.com/rvboris/koa-useragent) - Fast Middleware exposing user-agent. ![](https://img.shields.io/github/stars/rvboris/koa-useragent.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-useragent.svg?style=flat-square)
 
 ### Templating
 
@@ -133,6 +135,7 @@ English | [简体中文](./README.md)
 - [koa-rest-router](https://github.com/tunnckoCore/koa-rest-router) - Most powerful, flexible and composable router for building enterprise RESTful APIs easily! ![](https://img.shields.io/github/stars/tunnckoCore/koa-rest-router.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-rest-router.svg?style=flat-square)
 - [koa-66](https://github.com/menems/koa-66) - Router for koa v2. ![](https://img.shields.io/github/stars/menems/koa-66.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-66.svg?style=flat-square)
 - [koa-react-router](https://github.com/afenton90/koa-react-router) - koa 2 middleware for React server side rendering and routing with - -[react-router](https://github.com/ReactTraining/react-router) ![](https://img.shields.io/github/stars/afenton90/koa-react-router.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-react-router.svg)
+- [koa-combine-routers](https://github.com/saadq/koa-combine-routers) - Combine multiple instances of [@koa/router](https://github.com/koajs/koa-router). ![](https://img.shields.io/github/stars/saadq/koa-combine-routers.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-combine-routers.svg?style=flat-square)
 - [koa-mapper](https://github.com/d-band/koa-mapper) - A better router support params validation and OpenAPI generation. ![](https://img.shields.io/github/stars/d-band/koa-mapper.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-mapper.svg?style=flat-square)
 - [koa-params](https://github.com/segmentio/koa-params) - Express style params support for koa-route. ![](https://img.shields.io/github/stars/segmentio/koa-params.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-params.svg?style=flat-square)
 - [koa-frouter](https://github.com/MangroveTech/koa-frouter) - File as `path`. ![](https://img.shields.io/github/stars/MangroveTech/koa-frouter.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-frouter.svg?style=flat-square)
