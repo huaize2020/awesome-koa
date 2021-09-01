@@ -98,6 +98,20 @@
 
 - [koa-static](https://github.com/koajs/static) - 静态文件服务中间件。 ![](https://img.shields.io/github/stars/koajs/static.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-static.svg?style=flat-square)
 - [koa-send](https://github.com/koajs/send) - 传送静态文件。 ![](https://img.shields.io/github/stars/koajs/send.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-send.svg?style=flat-square)
+- [koa-static-cache](https://github.com/jonathanong/koa-static-cache) - 带缓存的静态文件服务。 ![](https://img.shields.io/github/stars/jonathanong/koa-static-cache.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-static-cache.svg?style=flat-square)
+- [koa-favicon](https://github.com/koajs/favicon) - 基于 `serve-favicon`提供网站图标服务favicon。 ![](https://img.shields.io/github/stars/koajs/favicon.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-favicon.svg?style=flat-square)
+- [koa-static-server](https://github.com/pkoretic/koa-static-server) - 具有目录、重写和索引支持的 koa 静态文件服务中间件。 ![](https://img.shields.io/github/stars/pkoretic/koa-static-server.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-static-server.svg?style=flat-square)
+- [koa-sendfile](https://github.com/koajs/sendfile) - 基础文件发送工具。 ![](https://img.shields.io/github/stars/koajs/sendfile.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-sendfile.svg?style=flat-square)
+- [koa-file-server](https://github.com/koajs/file-server) - 具有附加功能的静态文件服务，如支持 etag 和 SPDY 推送。 ![](https://img.shields.io/github/stars/koajs/file-server.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-file-server.svg?style=flat-square)
+- [koa-stream](https://github.com/claudetech/koa-stream) - 支持范围请求的文件发送实用程序。 ![](https://img.shields.io/github/stars/claudetech/koa-stream.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-stream.svg?style=flat-square)
+- [koa-better-serve](https://github.com/tunnckoCore/koa-better-serve) - 使用 `koa-send` 提供小型、简单和正确的文件服务——仅此而已。 ![](https://img.shields.io/github/stars/tunnckoCore/koa-better-serve.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-better-serve.svg?style=flat-square)
+- [koa-spa](https://github.com/ktmud/koa-spa) - 基于`koa-static-cache`(静态缓存)构建的单页应用服务器。 ![](https://img.shields.io/github/stars/ktmud/koa-spa.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-spa.svg?style=flat-square)
+- [koa-serve-static](https://github.com/koa-modules/serve-static) - 提供静态文件，基于 Express 的 `serve-static`。 ![](https://img.shields.io/github/stars/koa-modules/serve-static.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-serve-static.svg?style=flat-square)
+- [koa-static2](https://github.com/Secbone/koa-static2) - 在用户声明的名称下的文件夹提供文件服务。 ![](https://img.shields.io/github/stars/Secbone/koa-static2.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-static2.svg?style=flat-square)
+- [koa-static-folder](https://github.com/janpieterz/koajs-static-folder) - 使用文件夹提供静态文件。 ![](https://img.shields.io/github/stars/janpieterz/koajs-static-folder.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-static-folder.svg?style=flat-square)
+- [koa-serve-list](https://github.com/koa-modules/serve-list) - 基于 Express 的 `serve-index` 为 koa 提供目录列表。 ![](https://img.shields.io/github/stars/koa-modules/serve-list.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-serve-list.svg?style=flat-square)
+- [koa-serve](https://github.com/adamkdean/koa-serve) - 提供静态文件服务的Koa中间件。 ![](https://img.shields.io/github/stars/adamkdean/koa-serve.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-serve.svg?style=flat-square)
+
 
 ### 路由和挂载
 
