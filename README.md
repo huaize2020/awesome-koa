@@ -199,7 +199,12 @@
 ### 日志
 
 - [koa-logger](https://github.com/koajs/logger) - 开发风格日志中间件。 ![](https://img.shields.io/github/stars/koajs/logger.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-logger.svg?style=flat-square)
+- [concurrency-logger](https://github.com/PabloSichert/concurrency-logger) - 分别记录 HTTP 请求/响应，将它们的并发可视化并在请求的上下文中报告日志/错误。 ![](https://img.shields.io/github/stars/PabloSichert/concurrency-logger.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/concurrency-logger.svg?style=flat-square)
 - [koa-bunyan-logger](https://github.com/koajs/bunyan-logger) - 使用Bunyan请求日志的Koa中间件。 ![](https://img.shields.io/github/stars/koajs/bunyan-logger.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-bunyan-logger.svg?style=flat-square)
+- [koa-log4](https://github.com/dominhhai/koa-log4js) - 基于log4js-node封装的中间件。 ![](https://img.shields.io/github/stars/dominhhai/koa-log4js.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-log4.svg?style=flat-square)
+- [koa-morgan](https://github.com/koa-modules/morgan) - 基于Morgan的中间件。 ![](https://img.shields.io/github/stars/koa-modules/morgan.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-morgan.svg?style=flat-square)
+- [koa-json-logger](https://github.com/rudijs/koa-json-logger) - HTTP请求/响应/错误的JSON格式的日志。 ![](https://img.shields.io/github/stars/rudijs/koa-json-logger.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-json-logger.svg?style=flat-square)
+- [koa-bunyan](https://github.com/ivpusic/koa-bunyan) - 使用node-bunyan的中间件。 ![](https://img.shields.io/github/stars/ivpusic/koa-bunyan.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-bunyan.svg?style=flat-square)
 - [koa-accesslog](https://github.com/koajs/accesslog) - 通用日志格式访问日志的中间件。 ![](https://img.shields.io/github/stars/koajs/accesslog.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-accesslog.svg?style=flat-square)
 
 ### 错误报告
