@@ -16,6 +16,7 @@
   - [路由和挂载](#路由和挂载)
   - [压缩](#压缩)
   - [Session](#session)
+  - [缓存](#缓存)
   - [限流](#限流)
   - [文档](#文档)
   - [安全](#安全)
@@ -164,6 +165,14 @@
 - [koa-session2](https://github.com/Secbone/koa-session2) - Koa2 的中间件，用于获取/设置与自定义存储（如 Redis 或 mongodb）一起使用的会话。 ![](https://img.shields.io/github/stars/Secbone/koa-session2.svg?style=social&label=Star)  ![](https://img.shields.io/npm/dm/koa-session2.svg?style=flat-square)
 - [koa-session-minimal](https://github.com/longztian/koa-session-minimal) - 对`koa-generic-session`的`Koa 2`重写，支持其核心功能和存储。 ![](https://img.shields.io/github/stars/longztian/koa-session-minimal.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-session-minimal.svg?style=flat-square)
 - [koa-redis-session-sets](https://github.com/koajs/redis-session-sets) - 带有字段引用交叉集的 Koa Redis Session。 ![](https://img.shields.io/github/stars/koajs/redis-session-sets.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-redis-session-sets.svg?style=flat-square)
+
+### 缓存
+
+- [koa-cash](https://github.com/koajs/cash) - Koa 的 HTTP 响应缓存。支持 Redis、内存存储等。 ![](https://img.shields.io/github/stars/koajs/cash.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-cash.svg?style=flat-square)
+- [koa-conditional-get](https://github.com/koajs/conditional-get) - 条件Get，用于判断是否新鲜。![](https://img.shields.io/github/stars/koajs/conditional-get.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-conditional-get.svg?style=flat-square)
+- [koa-cache-lite](https://github.com/mkozjak/koa-cache-lite) - 零依赖的Koa路由缓存。 ![](https://img.shields.io/github/stars/mkozjak/koa-cache-lite.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-cache-lite.svg?style=flat-square)
+- [koa-router-cache](https://github.com/nswbmw/koa-router-cache) - 路由缓存中间件。![](https://img.shields.io/github/stars/nswbmw/koa-router-cache.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-router-cache.svg?style=flat-square)
+- [koa-etag](https://github.com/koajs/etag) - 为Koa响应提供Etag功能。 ![](https://img.shields.io/github/stars/fengmk2/koa-fresh.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-etag.svg?style=flat-square)
 
 ### 限流
 
