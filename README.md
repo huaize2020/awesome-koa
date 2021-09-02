@@ -14,6 +14,8 @@
   - [模板引擎](#模板引擎)
   - [文件服务](#文件服务)
   - [路由和挂载](#路由和挂载)
+  - [数据库](#数据库)
+  - [Graphql](#graphql)
   - [压缩](#压缩)
   - [Session](#session)
   - [缓存](#缓存)
@@ -148,6 +150,20 @@
 - [koa-ovenware](https://github.com/zedgu/koa-ovenware) - Koa 的自动模型/控制器加载器。 ![](https://img.shields.io/github/stars/zedgu/koa-ovenware.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-ovenware.svg?style=flat-square)
 - [koa-forward-request](https://github.com/nswbmw/koa-forward-request) - 转发请求。![](https://img.shields.io/github/stars/nswbmw/koa-forward-request.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-forward-request.svg?style=flat-square)
 - [koa-architect](https://github.com/nervgh/koa-architect) - 自动挂载和路由。 ![](https://img.shields.io/github/stars/nervgh/koa-architect.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-architect.svg?style=flat-square)
+
+### 数据库
+
+- [koa-mongo](https://github.com/MangroveTech/koa-mongo) - MongoDB中间件，支持连接池。![](https://img.shields.io/github/stars/MangroveTech/koa-mongo.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-mongo.svg?style=flat-square)
+- [koa-pagination](https://github.com/seegno/koa-pagination) - 处理[Range Pagination Headers](http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html), 使用 `Range` & `Content-Range` 实体头. ![](https://img.shields.io/github/stars/seegno/koa-pagination.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-pagination.svg?style=flat-square)
+- [koa-pg](https://github.com/chilts/koa-pg) - 自动操作Pg数据库连接。 ![](https://img.shields.io/github/stars/chilts/koa-pg.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-pg.svg?style=flat-square)
+- [koa-redis-pool](https://github.com/MangroveTech/koa-redis-pool) - Redis中间件，支持连接池。 ![](https://img.shields.io/github/stars/MangroveTech/koa-redis-pool.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-redis-pool.svg?style=flat-square)
+- [koa-orm](https://github.com/d-band/koa-orm) - 使用sequelize & squel的ORM中间件. ![](https://img.shields.io/github/stars/exponentjs/koa-graphiql.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-orm.svg?style=flat-square)
+- [koa-waterline](https://github.com/ptariche/koa-waterline) - waterline orm中间件。 ![](https://img.shields.io/github/stars/ptariche/koa-waterline.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-waterline.svg?style=flat-square)
+
+### Graphql
+
+- [koa-graphql](https://github.com/chentsulin/koa-graphql) - 用于创建GraphQL HTTP服务器的中间件。 ![](https://img.shields.io/github/stars/chentsulin/koa-graphql.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-graphql.svg?style=flat-square)
+- [koa-graphiql](https://github.com/exponentjs/koa-graphiql) - Koa 中间件用于显示GraphiQL，一个交互式 GraphQL UI。 ![](https://img.shields.io/github/stars/exponentjs/koa-graphiql.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-graphiql.svg?style=flat-square)
 
 ### 压缩
 
