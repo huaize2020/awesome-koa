@@ -16,6 +16,7 @@ English | [简体中文](./README.md)
   - [Routing and Mounting](#routing-and-mounting)
   - [Compression](#compression)
   - [Session](#session)
+  - [Caching](#caching)
   - [Rate Limiting](#rate-limiting)
   - [Documentation](#documentation)
   - [Security](#security)
@@ -155,7 +156,7 @@ English | [简体中文](./README.md)
 
 ### Compression
 
-- [koa-compress](https://github.com/koajs/compress) - Compression middleware  ![](https://img.shields.io/github/stars/koajs/compress.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-compress.svg?style=flat-square)
+- [koa-compress](https://github.com/koajs/compress) - Compression middleware. ![](https://img.shields.io/github/stars/koajs/compress.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-compress.svg?style=flat-square)
 - [koa-compressor](https://github.com/koajs/compressor) - SPDY/HTTP2 compression middleware (always gzips) ![](https://img.shields.io/github/stars/koajs/compressor.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-compressor.svg?style=flat-square)
 - [kompression](https://github.com/tuananh/kompression) - forked of koa-compress with support for brotli compression ![](https://img.shields.io/github/stars/tuananh/kompression.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/kompression.svg?style=flat-square)
 - [koa-minify](https://github.com/coderaiser/koa-minify) - minify middleware for js, css, html and img. ![](https://img.shields.io/github/stars/coderaiser/koa-minify.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-minify.svg?style=flat-square)
@@ -169,6 +170,14 @@ English | [简体中文](./README.md)
 - [koa-session2](https://github.com/Secbone/koa-session2) - Middleware for Koa2 to get/set session use with custom stores such as Redis or mongodb. ![](https://img.shields.io/github/stars/Secbone/koa-session2.svg?style=social&label=Star)  ![](https://img.shields.io/npm/dm/koa-session2.svg?style=flat-square)
 - [koa-session-minimal](https://github.com/longztian/koa-session-minimal) - a `Koa 2` rewrite of `koa-generic-session`, support its core functionalities and stores ![](https://img.shields.io/github/stars/longztian/koa-session-minimal.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-session-minimal.svg?style=flat-square)
 - [koa-redis-session-sets](https://github.com/koajs/redis-session-sets) - Koa Redis sessions with field-referencing cross sets ![](https://img.shields.io/github/stars/koajs/redis-session-sets.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-redis-session-sets.svg?style=flat-square)
+
+### Caching
+
+- [koa-cash](https://github.com/koajs/cash) - HTTP response caching for Koa. Supports Redis, in-memory store, and more. ![](https://img.shields.io/github/stars/koajs/cash.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-cash.svg?style=flat-square)
+- [koa-conditional-get](https://github.com/koajs/conditional-get) - Conditional GET support. ![](https://img.shields.io/github/stars/koajs/conditional-get.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-conditional-get.svg?style=flat-square)
+- [koa-cache-lite](https://github.com/mkozjak/koa-cache-lite) - Zero-dependency koa router cache. ![](https://img.shields.io/github/stars/mkozjak/koa-cache-lite.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-cache-lite.svg?style=flat-square)
+- [koa-router-cache](https://github.com/nswbmw/koa-router-cache) - Router cache middleware for koa. ![](https://img.shields.io/github/stars/nswbmw/koa-router-cache.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-router-cache.svg?style=flat-square)
+- [koa-etag](https://github.com/koajs/etag) - Etag support for koa responses. ![](https://img.shields.io/github/stars/fengmk2/koa-fresh.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-etag.svg?style=flat-square)
 
 ### Rate Limiting
 
