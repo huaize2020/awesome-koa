@@ -93,9 +93,9 @@ English | [简体中文](./README.md)
 - [koa-view](https://github.com/d-band/koa-view) - [Nunjucks](http://mozilla.github.io/nunjucks/) view rendering. ![](https://img.shields.io/github/stars/d-band/koa-view.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-view.svg?style=flat-square)
 - [koa-nunjucks-next](https://github.com/beliefgp/koa-nunjucks-next) - [Nunjucks](http://mozilla.github.io/nunjucks/) view rendering, support asynchronous filters, render raw string. ![](https://img.shields.io/github/stars/beliefgp/koa-nunjucks-next.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-nunjucks-next.svg?style=flat-square)
 - [koa-dom](https://github.com/juliangruber/koa-dom) - server-side dom templating ![](https://img.shields.io/github/stars/juliangruber/koa-dom.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-dom.svg?style=flat-square)
-- [co-ejs](https://github.com/nswbmw/co-ejs) - koa ejs view render middleware. ![](https://img.shields.io/github/stars/nswbmw/co-ejs.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/co-ejs.svg?style=flat-square)
 - [koa-xtpl](https://github.com/zce/koa-xtpl) - A node.js wrapper around xtemplate engine (easier for Koa 2). ![](https://img.shields.io/github/stars/zce/koa-xtpl.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-xtpl.svg?style=flat-square)
 - [koa-nunjucks-async](https://github.com/uniibu/koa-nunjucks-async) - A Koa@2 middleware for rendering [Nunjucks](http://mozilla.github.io/nunjucks/) templates. Uses Node's native `async/await`, and `util.promisify`. Also exposes ctx.state to rendered templates. ![](https://img.shields.io/github/stars/uniibu/koa-nunjucks-async.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-nunjucks-async.svg?style=flat-square)
+- [co-ejs](https://github.com/nswbmw/co-ejs) - koa ejs view render middleware. ![](https://img.shields.io/github/stars/nswbmw/co-ejs.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/co-ejs.svg?style=flat-square)
 - [koajs-nunjucks](https://github.com/Faeson/koajs-nunjucks) - [Nunjucks](http://mozilla.github.io/nunjucks/) view rendering. ![](https://img.shields.io/github/stars/Faeson/koajs-nunjucks.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koajs-nunjucks.svg?style=flat-square)
 - [koa-swig-render](https://github.com/JiangJie/koa-swig-render) - Focus on - [swig](http://paularmstrong.github.io/swig/), used as a middleware. ![](https://img.shields.io/github/stars/JiangJie/koa-swig-render.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-swig-render.svg?style=flat-square)
 - [koa2-jsx](https://github.com/artdecocode/koa2-jsx) - [JSX](https://reactjs.org/docs/introducing-jsx.html) rendering using server-side React methods, with Redux support to set templating data from context. Can be used to create universal application. ![](https://img.shields.io/github/stars/artdecocode/koa2-jsx.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa2-jsx.svg?style=flat-square)
@@ -205,10 +205,10 @@ English | [简体中文](./README.md)
 ### Caching
 
 - [koa-cash](https://github.com/koajs/cash) - HTTP response caching for Koa. Supports Redis, in-memory store, and more. ![](https://img.shields.io/github/stars/koajs/cash.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-cash.svg?style=flat-square)
+- [koa-etag](https://github.com/koajs/etag) - Etag support for koa responses. ![](https://img.shields.io/github/stars/koajs/etag.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-etag.svg?style=flat-square)
 - [koa-conditional-get](https://github.com/koajs/conditional-get) - Conditional GET support. ![](https://img.shields.io/github/stars/koajs/conditional-get.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-conditional-get.svg?style=flat-square)
 - [koa-cache-lite](https://github.com/mkozjak/koa-cache-lite) - Zero-dependency koa router cache. ![](https://img.shields.io/github/stars/mkozjak/koa-cache-lite.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-cache-lite.svg?style=flat-square)
 - [koa-router-cache](https://github.com/nswbmw/koa-router-cache) - Router cache middleware for koa. ![](https://img.shields.io/github/stars/nswbmw/koa-router-cache.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-router-cache.svg?style=flat-square)
-- [koa-etag](https://github.com/koajs/etag) - Etag support for koa responses. ![](https://img.shields.io/github/stars/fengmk2/koa-fresh.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-etag.svg?style=flat-square)
 
 ### Rate Limiting
 
@@ -254,5 +254,6 @@ English | [简体中文](./README.md)
 
 ### i18n
 
+- [koa-locales](https://github.com/koajs/locales) - Koa locales, i18n solution for koa. ![](https://img.shields.io/github/stars/koajs/locales.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-locales.svg?style=flat-square)
 - [koa-i18n](https://github.com/koa-modules/i18n) - Lightweight simple translation middleware based on i18n-2. ![](https://img.shields.io/github/stars/koa-modules/i18n.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-i18n.svg?style=flat-square)
 - [koa-locale](https://github.com/koa-modules/locale) - Get locale variable from query, subdomain, accept-languages or cookie. ![](https://img.shields.io/github/stars/koa-modules/locale.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-locale.svg?style=flat-square)
