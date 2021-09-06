@@ -92,9 +92,9 @@
 - [koa-view](https://github.com/d-band/koa-view) - [Nunjucks](http://mozilla.github.io/nunjucks/)视图渲染中间件。 ![](https://img.shields.io/github/stars/d-band/koa-view.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-view.svg?style=flat-square)
 - [koa-nunjucks-next](https://github.com/beliefgp/koa-nunjucks-next) - [Nunjucks](http://mozilla.github.io/nunjucks/)视图渲染中间件, 支持异步过滤器，渲染原始字符串。 ![](https://img.shields.io/github/stars/beliefgp/koa-nunjucks-next.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-nunjucks-next.svg?style=flat-square)
 - [koa-dom](https://github.com/juliangruber/koa-dom) - 服务端渲染DOM模板。![](https://img.shields.io/github/stars/juliangruber/koa-dom.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-dom.svg?style=flat-square)
-- [co-ejs](https://github.com/nswbmw/co-ejs) - koa ejs视图渲染中间件。 ![](https://img.shields.io/github/stars/nswbmw/co-ejs.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/co-ejs.svg?style=flat-square)
 - [koa-xtpl](https://github.com/zce/koa-xtpl) - xtemplate模板引擎的封装(使其在Koa 2使用更简单). ![](https://img.shields.io/github/stars/zce/koa-xtpl.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-xtpl.svg?style=flat-square)
 - [koa-nunjucks-async](https://github.com/uniibu/koa-nunjucks-async) - 一个Koa@2 [Nunjucks](http://mozilla.github.io/nunjucks/)视图渲染中间件。使用 Node 的原生 `async/await` 和 `util.promisify`。 还将 ctx.state 暴露给渲染模板。 ![](https://img.shields.io/github/stars/uniibu/koa-nunjucks-async.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-nunjucks-async.svg?style=flat-square)
+- [co-ejs](https://github.com/nswbmw/co-ejs) - koa ejs视图渲染中间件。 ![](https://img.shields.io/github/stars/nswbmw/co-ejs.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/co-ejs.svg?style=flat-square)
 - [koajs-nunjucks](https://github.com/Faeson/koajs-nunjucks) - [Nunjucks](http://mozilla.github.io/nunjucks/)视图渲染中间件。 ![](https://img.shields.io/github/stars/Faeson/koajs-nunjucks.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koajs-nunjucks.svg?style=flat-square)
 - [koa-swig-render](https://github.com/JiangJie/koa-swig-render) - [swig](http://paularmstrong.github.io/swig/)视图渲染中间件. ![](https://img.shields.io/github/stars/JiangJie/koa-swig-render.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-swig-render.svg?style=flat-square)
 - [koa2-jsx](https://github.com/artdecocode/koa2-jsx) - [JSX](https://reactjs.org/docs/introducing-jsx.html) 使用服务器端 React 方法渲染，Redux 支持从上下文设置模板数据。可用于创建通用应用程序。 ![](https://img.shields.io/github/stars/artdecocode/koa2-jsx.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa2-jsx.svg?style=flat-square)
@@ -200,10 +200,10 @@
 ### 缓存
 
 - [koa-cash](https://github.com/koajs/cash) - Koa 的 HTTP 响应缓存。支持 Redis、内存存储等。 ![](https://img.shields.io/github/stars/koajs/cash.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-cash.svg?style=flat-square)
+- [koa-etag](https://github.com/koajs/etag) - 为Koa响应提供Etag功能。 ![](https://img.shields.io/github/stars/koajs/etag.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-etag.svg?style=flat-square)
 - [koa-conditional-get](https://github.com/koajs/conditional-get) - 条件Get，用于判断是否新鲜。![](https://img.shields.io/github/stars/koajs/conditional-get.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-conditional-get.svg?style=flat-square)
 - [koa-cache-lite](https://github.com/mkozjak/koa-cache-lite) - 零依赖的Koa路由缓存。 ![](https://img.shields.io/github/stars/mkozjak/koa-cache-lite.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-cache-lite.svg?style=flat-square)
 - [koa-router-cache](https://github.com/nswbmw/koa-router-cache) - 路由缓存中间件。![](https://img.shields.io/github/stars/nswbmw/koa-router-cache.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-router-cache.svg?style=flat-square)
-- [koa-etag](https://github.com/koajs/etag) - 为Koa响应提供Etag功能。 ![](https://img.shields.io/github/stars/fengmk2/koa-fresh.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-etag.svg?style=flat-square)
 
 ### 限流
 
@@ -248,5 +248,6 @@
 
 ### i18n
 
+- [koa-locales](https://github.com/koajs/locales) - i18n解决方案。 ![](https://img.shields.io/github/stars/koajs/locales.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-locales.svg?style=flat-square)
 - [koa-i18n](https://github.com/koa-modules/i18n) - 基于 i18n-2 的轻量级简单翻译中间件。 ![](https://img.shields.io/github/stars/koa-modules/i18n.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-i18n.svg?style=flat-square)
 - [koa-locale](https://github.com/koa-modules/locale) - 从查询参数、子域名、accept-languages或 cookie 中获取区域设置变量。 ![](https://img.shields.io/github/stars/koa-modules/locale.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-locale.svg?style=flat-square)
