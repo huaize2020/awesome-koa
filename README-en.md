@@ -14,6 +14,7 @@ English | [简体中文](./README.md)
   - [Templating](#templating)
   - [File Serving](#file-serving)
   - [Routing and Mounting](#routing-and-mounting)
+  - [Authentication](#authentication)
   - [Database](#database)
   - [Graphql](#graphql)
   - [Compression](#compression)
@@ -155,6 +156,20 @@ English | [简体中文](./README.md)
 - [koa-ovenware](https://github.com/zedgu/koa-ovenware) - Automatic Model / Controller Loader for Koa. ![](https://img.shields.io/github/stars/zedgu/koa-ovenware.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-ovenware.svg?style=flat-square)
 - [koa-forward-request](https://github.com/nswbmw/koa-forward-request) - Forward request for koa. ![](https://img.shields.io/github/stars/nswbmw/koa-forward-request.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-forward-request.svg?style=flat-square)
 - [koa-architect](https://github.com/nervgh/koa-architect) - Automates mounting and routing. ![](https://img.shields.io/github/stars/nervgh/koa-architect.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-architect.svg?style=flat-square)
+
+### Authentication
+
+- [koa-jwt](https://github.com/koajs/jwt) - Koa middleware for validating JSON Web Tokens.  ![](https://img.shields.io/github/stars/koajs/jwt.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-jwt.svg?style=flat-square)
+- [koa-passport](https://github.com/rkusa/koa-passport) - Passport middleware for Koa. ![](https://img.shields.io/github/stars/rkusa/koa-passport.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-passport.svg?style=flat-square)
+- [koa-csrf](https://github.com/koajs/csrf) - CSRF tokens. ![](https://img.shields.io/github/stars/koajs/csrf.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-csrf.svg?style=flat-square)
+- [koa-basic-auth](https://github.com/koajs/basic-auth) - Simple user/pass basic auth. ![](https://img.shields.io/github/stars/koajs/basic-auth.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-basic-auth.svg?style=flat-square)
+- [koa-bearer-token](https://github.com/chentsulin/koa-bearer-token) - Bearer token parser middleware for koa. ![](https://img.shields.io/github/stars/chentsulin/koa-bearer-token.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-bearer-token.svg?style=flat-square)
+- [koa-statelessauth](https://github.com/jchannon/koa-statelessauth) - custom validation based on `Authorization` header. ![](https://img.shields.io/github/stars/jchannon/koa-statelessauth.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-statelessauth.svg?style=flat-square)
+- [koa-weixin-token](https://github.com/nealnote/koa-weixin-token) - Weixin token services for koa. ![](https://img.shields.io/github/stars/nealnote/koa-weixin-token.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-weixin-token.svg?style=flat-square)
+- [koa-police](https://github.com/tuvistavie/koa-police) - Policy based authentication library for Koa. ![](https://img.shields.io/github/stars/tuvistavie/koa-police.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-police.svg?style=flat-square)
+- [koa-jwt-mongo](https://github.com/miserylee/koa-jwt-mongo) - Deal with JSON-web-token in mongodb. ![](https://img.shields.io/github/stars/miserylee/koa-jwt-mongo.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-jwt-mongo.svg?style=flat-square)
+- [koa-http-auth](https://github.com/gerhut/koa-http-auth) - Simple HTTP auth, including Basic auth & Digest auth. ![](https://img.shields.io/github/stars/gerhut/koa-http-auth.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-http-auth.svg?style=flat-square)
+- [koa-cognito-middleware](https://github.com/uhop/koa-cognito-middleware) - Simple authentication with [AWS Cognito](https://aws.amazon.com/cognito/) [user pools](https://docs.aws.amazon.com/cognito/latest/developerguide/cognito-user-identity-pools.html) ![](https://img.shields.io/github/stars/uhop/koa-cognito-middleware.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-cognito-middleware.svg?style=flat-square)
 
 ### Database
 
