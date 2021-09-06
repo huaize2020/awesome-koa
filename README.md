@@ -14,6 +14,7 @@
   - [模板引擎](#模板引擎)
   - [文件服务](#文件服务)
   - [路由和挂载](#路由和挂载)
+  - [授权/鉴权](#授权鉴权)
   - [数据库](#数据库)
   - [Graphql](#graphql)
   - [压缩](#压缩)
@@ -80,7 +81,7 @@
 
 ### 模板引擎
 
-- [koa-views](https://github.com/queckezz/koa-views) - Render your views with almost any templating engine ![](https://img.shields.io/github/stars/queckezz/koa-views.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-views.svg?style=flat-square)
+- [koa-views](https://github.com/queckezz/koa-views) - 可使用几乎任何模板引擎渲染你的视图。 ![](https://img.shields.io/github/stars/queckezz/koa-views.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-views.svg?style=flat-square)
 - [koa-ejs](https://github.com/koajs/ejs) -  Koa视图渲染中间件，支持ejs所有特性。 ![](https://img.shields.io/github/stars/koajs/ejs.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-ejs.svg?style=flat-square)
 - [koa-react-view](https://github.com/koajs/react-view) - Koa视图渲染中间件，用于在服务端渲染React组件。 ![](https://img.shields.io/github/stars/koajs/react-view.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-react-view.svg?style=flat-square)
 - [koa-hbs](https://github.com/jwilm/koa-hbs) - Express风格视图渲染。 ![](https://img.shields.io/github/stars/jwilm/koa-hbs.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-hbs.svg?style=flat-square)
@@ -150,6 +151,20 @@
 - [koa-ovenware](https://github.com/zedgu/koa-ovenware) - Koa 的自动模型/控制器加载器。 ![](https://img.shields.io/github/stars/zedgu/koa-ovenware.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-ovenware.svg?style=flat-square)
 - [koa-forward-request](https://github.com/nswbmw/koa-forward-request) - 转发请求。![](https://img.shields.io/github/stars/nswbmw/koa-forward-request.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-forward-request.svg?style=flat-square)
 - [koa-architect](https://github.com/nervgh/koa-architect) - 自动挂载和路由。 ![](https://img.shields.io/github/stars/nervgh/koa-architect.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-architect.svg?style=flat-square)
+
+### 授权/鉴权
+
+- [koa-jwt](https://github.com/koajs/jwt) - 校验JWT（JSON Web Tokens）的Koa中间件。 ![](https://img.shields.io/github/stars/koajs/jwt.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-jwt.svg?style=flat-square)
+- [koa-passport](https://github.com/rkusa/koa-passport) - 基于Passport的鉴权中间件。 ![](https://img.shields.io/github/stars/rkusa/koa-passport.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-passport.svg?style=flat-square)
+- [koa-csrf](https://github.com/koajs/csrf) - CSRF tokens。 ![](https://img.shields.io/github/stars/koajs/csrf.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-csrf.svg?style=flat-square)
+- [koa-basic-auth](https://github.com/koajs/basic-auth) - 简单的用户密码基础授权。 ![](https://img.shields.io/github/stars/koajs/basic-auth.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-basic-auth.svg?style=flat-square)
+- [koa-bearer-token](https://github.com/chentsulin/koa-bearer-token) - Bearer token解析器中间件。 ![](https://img.shields.io/github/stars/chentsulin/koa-bearer-token.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-bearer-token.svg?style=flat-square)
+- [koa-statelessauth](https://github.com/jchannon/koa-statelessauth) - 基于 `Authorization` header的自定义验证。 ![](https://img.shields.io/github/stars/jchannon/koa-statelessauth.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-statelessauth.svg?style=flat-square)
+- [koa-weixin-token](https://github.com/nealnote/koa-weixin-token) - 微信Token服务。 ![](https://img.shields.io/github/stars/nealnote/koa-weixin-token.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-weixin-token.svg?style=flat-square)
+- [koa-police](https://github.com/tuvistavie/koa-police) - 基于策略的身份验证库。 ![](https://img.shields.io/github/stars/tuvistavie/koa-police.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-police.svg?style=flat-square)
+- [koa-jwt-mongo](https://github.com/miserylee/koa-jwt-mongo) - 将JWT（JSON Web Tokens）存储在mongodb中的中间件。 ![](https://img.shields.io/github/stars/miserylee/koa-jwt-mongo.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-jwt-mongo.svg?style=flat-square)
+- [koa-http-auth](https://github.com/gerhut/koa-http-auth) - 简单的 HTTP 身份验证，包括基本身份验证和摘要（Digest）身份验证。 ![](https://img.shields.io/github/stars/gerhut/koa-http-auth.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-http-auth.svg?style=flat-square)
+- [koa-cognito-middleware](https://github.com/uhop/koa-cognito-middleware) - 简单的使用 [AWS Cognito](https://aws.amazon.com/cognito/) [user pools](https://docs.aws.amazon.com/cognito/latest/developerguide/cognito-user-identity-pools.html) 的鉴权。 ![](https://img.shields.io/github/stars/uhop/koa-cognito-middleware.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-cognito-middleware.svg?style=flat-square)
 
 ### 数据库
 
