@@ -226,6 +226,7 @@ English | [简体中文](./README.md)
 
 - [koa-helmet](https://github.com/venables/koa-helmet) - Provides important security headers to make your app more secure by default.
  ![](https://img.shields.io/github/stars/venables/koa-helmet.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-helmet.svg?style=flat-square)
+- [koa-cors](https://github.com/evert0n/koa-cors) - CORS middleware for Koa. ![](https://img.shields.io/github/stars/evert0n/koa-cors.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-cors.svg?style=flat-square)
 - [koa-rbac](https://github.com/yanickrochon/koa-rbac) - Role-Based Access Control for koa. ![](https://img.shields.io/github/stars/yanickrochon/koa-rbac.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-rbac.svg?style=flat-square)
 - [koa-ip](https://github.com/MangroveTech/koa-ip) - Ip filter middleware for koa, support whitelist and blacklist.  ![](https://img.shields.io/github/stars/MangroveTech/koa-ip.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-ip.svg?style=flat-square)
 - [koa-authz](https://github.com/node-casbin/koa-authz) - ACL, RBAC, ABAC authorization middleware based on [Casbin](https://github.com/casbin/node-casbin).  ![](https://img.shields.io/github/stars/node-casbin/koa-authz.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-authz.svg?style=flat-square)
