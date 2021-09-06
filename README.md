@@ -63,6 +63,7 @@
 - [koa-less](https://github.com/chosecz/koa-less) - LESS中间件。 ![](https://img.shields.io/github/stars/chosecz/koa-less.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-less.svg?style=flat-square)
 - [koa.sass](https://github.com/clthck/koa-sass) - Sass中间件。 ![](https://img.shields.io/github/stars/clthck/koa-sass.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa.sass.svg?style=flat-square)
 - [koa-postcss](https://github.com/HowlingEverett/koa-postcss) - PostCSS中间件。 ![](https://img.shields.io/github/stars/HowlingEverett/koa-postcss.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-postcss.svg?style=flat-square)
+
 ### 主体解析(Body解析)
 
 - [koa-bodyparser](https://github.com/koajs/body-parser) - 用于Koa，基于co-body的主体解析。 ![](https://img.shields.io/github/stars/koajs/body-parser.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-bodyparser.svg?style=flat-square)
@@ -117,7 +118,6 @@
 - [koa-static-folder](https://github.com/janpieterz/koajs-static-folder) - 使用文件夹提供静态文件。 ![](https://img.shields.io/github/stars/janpieterz/koajs-static-folder.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-static-folder.svg?style=flat-square)
 - [koa-serve-list](https://github.com/koa-modules/serve-list) - 基于 Express 的 `serve-index` 为 koa 提供目录列表。 ![](https://img.shields.io/github/stars/koa-modules/serve-list.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-serve-list.svg?style=flat-square)
 - [koa-serve](https://github.com/adamkdean/koa-serve) - 提供静态文件服务的Koa中间件。 ![](https://img.shields.io/github/stars/adamkdean/koa-serve.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-serve.svg?style=flat-square)
-
 
 ### 路由和挂载
 
@@ -220,6 +220,7 @@
 ### 安全
 
 - [koa-helmet](https://github.com/venables/koa-helmet) - 提供重要的安全头header，使您的应用默认更安全。 ![](https://img.shields.io/github/stars/venables/koa-helmet.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-helmet.svg?style=flat-square)
+- [koa-cors](https://github.com/evert0n/koa-cors) - Koa 的 CORS 中间件。 ![](https://img.shields.io/github/stars/evert0n/koa-cors.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-cors.svg?style=flat-square)
 - [koa-rbac](https://github.com/yanickrochon/koa-rbac) - 用于Koa的基于角色的权限访问控制。 ![](https://img.shields.io/github/stars/yanickrochon/koa-rbac.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-rbac.svg?style=flat-square)
 - [koa-ip](https://github.com/MangroveTech/koa-ip) - 用于Koa的Ip过滤中间件。支持白名单和黑名单。 ![](https://img.shields.io/github/stars/MangroveTech/koa-ip.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-ip.svg?style=flat-square)
 - [koa-authz](https://github.com/node-casbin/koa-authz) - 用于Koa2，基于Casbin的授权中间件。 ![](https://img.shields.io/github/stars/node-casbin/koa-authz.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-authz.svg?style=flat-square)
