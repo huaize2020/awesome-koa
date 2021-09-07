@@ -5,6 +5,7 @@ English | [简体中文](./README.md)
 - [Table of contents](#table-of-contents)
 - [Official](#official)
 - [Framework](#framework)
+- [Content management systems (CMS)](#content-management-systems-cms)
 - [Middleware](#middleware)
   - [JSON](#json)
   - [JSONP](#jsonp)
@@ -19,6 +20,7 @@ English | [简体中文](./README.md)
   - [Graphql](#graphql)
   - [Compression](#compression)
   - [Session](#session)
+  - [Cookies](#cookies)
   - [Caching](#caching)
   - [Rate Limiting](#rate-limiting)
   - [Documentation](#documentation)
@@ -41,6 +43,10 @@ English | [简体中文](./README.md)
 - [lad](https://github.com/ladjs/lad) - The best Node.js framework. Made by a former Express TC and Koa team member. ![](https://img.shields.io/github/stars/ladjs/lad.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/lad.svg?style=flat-square)
 - [CabloyJS](https://github.com/zhennann/Cabloy) - A Node.js full-stack framework with workflow engine, based on koa + egg + vue + framework7. ![](https://img.shields.io/github/stars/zhennann/Cabloy.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/cabloy.svg?style=flat-square)
 - [koatty](https://github.com/Koatty/koatty) - Koa2 + Typescript = Koatty. Use Typescript's decorator implement IOC and AOP. ![](https://img.shields.io/github/stars/Koatty/koatty.svg?style=social&label=Star)  ![](https://img.shields.io/npm/dm/koatty.svg?style=flat-square)
+
+## Content management systems (CMS)
+
+- [Strapi](https://github.com/strapi/strapi) - Content Management Framework (headless-CMS) to build powerful APIs. ![](https://img.shields.io/github/stars/strapi/strapi.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/strapi.svg?style=flat-square)
 
 ## Middleware
 
@@ -79,6 +85,7 @@ English | [简体中文](./README.md)
 
 - [koa-compose](https://github.com/koajs/compose) - Compose several middleware into one. ![](https://img.shields.io/github/stars/koajs/compose.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-compose.svg?style=flat-square)
 - [koa-convert](https://github.com/gyson/koa-convert) - Convert koa legacy ( v0.x & v1.x ) generator middleware to promise middleware ( v2.x ). ![](https://img.shields.io/github/stars/gyson/koa-convert.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-convert.svg?style=flat-square)
+- [koa-connect](https://github.com/vkurchatkin/koa-connect) - Use connect and express middleware in koa. ![](https://img.shields.io/github/stars/vkurchatkin/koa-connect.svg?style=social&label=Star) ![](https://img.shields.io/npm/dt/koa-connect.svg)
 - [koa-useragent](https://github.com/rvboris/koa-useragent) - Fast Middleware exposing user-agent. ![](https://img.shields.io/github/stars/rvboris/koa-useragent.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-useragent.svg?style=flat-square)
 
 ### Templating
@@ -162,7 +169,6 @@ English | [简体中文](./README.md)
 
 - [koa-jwt](https://github.com/koajs/jwt) - Koa middleware for validating JSON Web Tokens.  ![](https://img.shields.io/github/stars/koajs/jwt.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-jwt.svg?style=flat-square)
 - [koa-passport](https://github.com/rkusa/koa-passport) - Passport middleware for Koa. ![](https://img.shields.io/github/stars/rkusa/koa-passport.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-passport.svg?style=flat-square)
-- [koa-csrf](https://github.com/koajs/csrf) - CSRF tokens. ![](https://img.shields.io/github/stars/koajs/csrf.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-csrf.svg?style=flat-square)
 - [koa-basic-auth](https://github.com/koajs/basic-auth) - Simple user/pass basic auth. ![](https://img.shields.io/github/stars/koajs/basic-auth.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-basic-auth.svg?style=flat-square)
 - [koa-bearer-token](https://github.com/chentsulin/koa-bearer-token) - Bearer token parser middleware for koa. ![](https://img.shields.io/github/stars/chentsulin/koa-bearer-token.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-bearer-token.svg?style=flat-square)
 - [koa-statelessauth](https://github.com/jchannon/koa-statelessauth) - custom validation based on `Authorization` header. ![](https://img.shields.io/github/stars/jchannon/koa-statelessauth.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-statelessauth.svg?style=flat-square)
@@ -203,6 +209,10 @@ English | [简体中文](./README.md)
 - [koa-session-minimal](https://github.com/longztian/koa-session-minimal) - a `Koa 2` rewrite of `koa-generic-session`, support its core functionalities and stores ![](https://img.shields.io/github/stars/longztian/koa-session-minimal.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-session-minimal.svg?style=flat-square)
 - [koa-redis-session-sets](https://github.com/koajs/redis-session-sets) - Koa Redis sessions with field-referencing cross sets ![](https://img.shields.io/github/stars/koajs/redis-session-sets.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-redis-session-sets.svg?style=flat-square)
 
+### Cookies
+
+- [koa-cookie](https://github.com/varunpal/koa-cookie) - Cookie parser middleware for koa. ![](https://img.shields.io/github/stars/varunpal/koa-cookie.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-cookie.svg?style=flat-square)
+
 ### Caching
 
 - [koa-cash](https://github.com/koajs/cash) - HTTP response caching for Koa. Supports Redis, in-memory store, and more. ![](https://img.shields.io/github/stars/koajs/cash.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-cash.svg?style=flat-square)
@@ -214,21 +224,28 @@ English | [简体中文](./README.md)
 ### Rate Limiting
 
 - [rate-limiter-flexible](https://github.com/animir/node-rate-limiter-flexible) - Limit requests by key with atomic increments in single process or distributed environment and protect against DDoS and brute force attacks at any scale in process Memory, Cluster or PM2, Redis, Memcached, MongoDb, etc ![](https://img.shields.io/github/stars/animir/node-rate-limiter-flexible.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/rate-limiter-flexible.svg?style=flat-square)
-- [ratelimit](https://github.com/koajs/ratelimit) - Rate limiting middleware ![](https://img.shields.io/github/stars/koajs/ratelimit.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-ratelimit.svg?style=flat-square)
+- [koa-ratelimit](https://github.com/koajs/ratelimit) - Rate limiting middleware ![](https://img.shields.io/github/stars/koajs/ratelimit.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-ratelimit.svg?style=flat-square)
 - [koa-better-ratelimit](https://github.com/tunnckoCore/koa-better-ratelimit) - Support custom stores, custom ID, custom error messages and custom headers. ![](https://img.shields.io/github/stars/tunnckoCore/koa-better-ratelimit.svg?style=social&label=Star)  ![](https://img.shields.io/npm/dm/koa-better-ratelimit.svg?style=flat-square)
 - [koa-ip-filter](https://github.com/tunnckoCore/koa-ip-filter) - Koa middleware to filter request IPs or custom ID with glob patterns, array, string, regexp or matcher function. Support custom 403 Forbidden message and custom ID. ![](https://img.shields.io/github/stars/tunnckoCore/koa-ip-filter.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-ip-filter.svg?style=flat-square)
 
 ### Documentation
 
+- [koa-swagger-decorator](https://github.com/Cody2333/koa-swagger-decorator) - Using decorator to automatically generate swagger doc for koa-router. ![](https://img.shields.io/github/stars/Cody2333/koa-swagger-decorator.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-swagger-decorator.svg?style=flat-square)
+- [swagger2-koa](https://github.com/carlansley/swagger2-koa) - Koa 2 middleware for swagger2. ![](https://img.shields.io/github/stars/carlansley/swagger2-koa.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/swagger2-koa.svg?style=flat-square)
 - [koa-docs](https://github.com/a-s-o/koa-docs) - Koa middleware for automatically generating and serving API documentation ![](https://img.shields.io/github/stars/a-s-o/koa-docs.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-docs.svg?style=flat-square)
 - [koa-joi-swagger](https://github.com/zaaack/koa-joi-swagger) - Using joi schema to validate request & response, and generate swagger document to create beautiful API documents. ![](https://img.shields.io/github/stars/zaaack/koa-joi-swagger.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-joi-swagger.svg?style=flat-square)
+- [swagger-koa](https://github.com/janvotava/swagger-koa) - Swagger + Koa = {swagger-koa} https://github.com/cyner/swagger-koa  ![](https://img.shields.io/github/stars/janvotava/swagger-koa.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/swagger-koa.svg?style=flat-square)
+
 
 ### Security
 
+- [@koa/cors](https://github.com/koajs/cors) - Cross-Origin Resource Sharing(CORS) for koa. ![](https://img.shields.io/github/stars/koajs/cors.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/@koa/cors.svg?style=flat-square)
 - [koa-helmet](https://github.com/venables/koa-helmet) - Provides important security headers to make your app more secure by default.
  ![](https://img.shields.io/github/stars/venables/koa-helmet.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-helmet.svg?style=flat-square)
+- [koa-csrf](https://github.com/koajs/csrf) - CSRF tokens. ![](https://img.shields.io/github/stars/koajs/csrf.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-csrf.svg?style=flat-square)
 - [koa-cors](https://github.com/evert0n/koa-cors) - CORS middleware for Koa. ![](https://img.shields.io/github/stars/evert0n/koa-cors.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-cors.svg?style=flat-square)
 - [koa-rbac](https://github.com/yanickrochon/koa-rbac) - Role-Based Access Control for koa. ![](https://img.shields.io/github/stars/yanickrochon/koa-rbac.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-rbac.svg?style=flat-square)
+- [koa-lusca](https://github.com/koajs/koa-lusca) - Koa version of lusca. Application security for koa. ![](https://img.shields.io/github/stars/koajs/koa-lusca.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-lusca.svg?style=flat-square)
 - [koa-ip](https://github.com/MangroveTech/koa-ip) - Ip filter middleware for koa, support whitelist and blacklist.  ![](https://img.shields.io/github/stars/MangroveTech/koa-ip.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-ip.svg?style=flat-square)
 - [koa-authz](https://github.com/node-casbin/koa-authz) - ACL, RBAC, ABAC authorization middleware based on [Casbin](https://github.com/casbin/node-casbin).  ![](https://img.shields.io/github/stars/node-casbin/koa-authz.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-authz.svg?style=flat-square)
 - [koa-ip-filter](https://github.com/tunnckoCore/koa-ip-filter) - Middleware for koa that filters IPs against glob patterns, RegExp, string or array of globs using `ip-filter` and `micromatch`. Support custom 403 Forbidden message and custom ID.  ![](https://img.shields.io/github/stars/tunnckoCore/koa-ip-filter.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-ip-filter.svg?style=flat-square)
@@ -238,9 +255,11 @@ English | [简体中文](./README.md)
 ### Logging
 
 - [koa-logger](https://github.com/koajs/logger) - Development style logging middleware. ![](https://img.shields.io/github/stars/koajs/logger.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-logger.svg?style=flat-square)
+- [cabin](https://github.com/cabinjs/cabin) - Logging/analytics service and middleware for Node.js, Lad, Koa, Express, and Passport. ![](https://img.shields.io/github/stars/cabinjs/cabin.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/cabin.svg?style=flat-square)
 - [concurrency-logger](https://github.com/PabloSichert/concurrency-logger) - Log HTTP requests/responses separately, visualize their concurrency and report logs/errors in context of a request. ![](https://img.shields.io/github/stars/PabloSichert/concurrency-logger.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/concurrency-logger.svg?style=flat-square)
 - [koa-bunyan-logger](https://github.com/koajs/bunyan-logger) - Koa middleware for bunyan request logging. ![](https://img.shields.io/github/stars/koajs/bunyan-logger.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-bunyan-logger.svg?style=flat-square)
 - [koa-log4](https://github.com/dominhhai/koa-log4js) - A wrapper for log4js-node which supports koa middleware. ![](https://img.shields.io/github/stars/dominhhai/koa-log4js.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-log4.svg?style=flat-square)
+- [koa-pino-logger](https://github.com/pinojs/koa-pino-logger) - pino logging koa middleware. ![](https://img.shields.io/github/stars/pinojs/koa-pino-logger.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-pino-logger.svg?style=flat-square)
 - [koa-morgan](https://github.com/koa-modules/morgan) - Morgan for koa. ![](https://img.shields.io/github/stars/koa-modules/morgan.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-morgan.svg?style=flat-square)
 - [koa-json-logger](https://github.com/rudijs/koa-json-logger) - HTTP Request/Response/Error JSON format logger. ![](https://img.shields.io/github/stars/rudijs/koa-json-logger.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-json-logger.svg?style=flat-square)
 - [koa-bunyan](https://github.com/ivpusic/koa-bunyan) - Using node-bunyan as koa logging middleware. ![](https://img.shields.io/github/stars/ivpusic/koa-bunyan.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-bunyan.svg?style=flat-square)
