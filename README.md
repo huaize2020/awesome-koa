@@ -28,6 +28,7 @@
   - [日志](#日志)
   - [错误报告](#错误报告)
   - [i18n](#i18n)
+  - [部署](#部署)
 
 ## 官方文档
 
@@ -81,6 +82,7 @@
 - [koa-xml-body](https://github.com/creeperyang/koa-xml-body) - 解析 xml http 请求正文。 ![](https://img.shields.io/github/stars/creeperyang/koa-xml-body.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-xml-body.svg?style=flat-square)
 - [koa-busboy](https://github.com/dominhhai/koa-busboy) - 处理 koa v2 的 multipart/form-data 数据。 ![](https://img.shields.io/github/stars/dominhhai/koa-busboy.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-busboy.svg?style=flat-square)
 - [koa-json-body](https://github.com/venables/koa-json-body) - 解析合法的 JSON 请求正文。 ![](https://img.shields.io/github/stars/venables/koa-json-body.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-json-body.svg?style=flat-square)
+- [koa-body-parsers](https://github.com/koajs/body-parsers) - Koa请求正文解析器集合。![](https://img.shields.io/github/stars/venables/koa-body-parsers.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-body-parsers.svg?style=flat-square)
 
 ### 工具
 
@@ -273,3 +275,7 @@
 - [koa-locales](https://github.com/koajs/locales) - i18n解决方案。 ![](https://img.shields.io/github/stars/koajs/locales.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-locales.svg?style=flat-square)
 - [koa-i18n](https://github.com/koa-modules/i18n) - 基于 i18n-2 的轻量级简单翻译中间件。 ![](https://img.shields.io/github/stars/koa-modules/i18n.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-i18n.svg?style=flat-square)
 - [koa-locale](https://github.com/koa-modules/locale) - 从查询参数、子域名、accept-languages或 cookie 中获取区域设置变量。 ![](https://img.shields.io/github/stars/koa-modules/locale.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-locale.svg?style=flat-square)
+
+### 部署
+
+- [koa-cluster](https://github.com/koajs/cluster) - Koa集群和错误处理工具。 ![](https://img.shields.io/github/stars/koajs/cluster.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-cluster.svg?style=flat-square)
