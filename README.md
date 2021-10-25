@@ -33,6 +33,7 @@
     - [Session](#session)
     - [Cookies](#cookies)
     - [缓存](#缓存)
+    - [WebSocket](#websocket)
     - [限流](#限流)
     - [文档](#文档)
     - [安全](#安全)
@@ -238,6 +239,10 @@
 - [koa-conditional-get](https://github.com/koajs/conditional-get) - 条件Get，用于判断是否新鲜。![](https://img.shields.io/github/stars/koajs/conditional-get.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-conditional-get.svg?style=flat-square)
 - [koa-cache-lite](https://github.com/mkozjak/koa-cache-lite) - 零依赖的Koa路由缓存。 ![](https://img.shields.io/github/stars/mkozjak/koa-cache-lite.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-cache-lite.svg?style=flat-square)
 - [koa-router-cache](https://github.com/nswbmw/koa-router-cache) - 路由缓存中间件。![](https://img.shields.io/github/stars/nswbmw/koa-router-cache.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-router-cache.svg?style=flat-square)
+
+#### WebSocket
+
+- [koa-easy-ws](https://github.com/b3nsn0w/koa-easy-ws) - 一个简单处理WebSocket的简单中间件。 ![](https://img.shields.io/github/stars/b3nsn0w/koa-easy-ws.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-easy-ws.svg?style=flat-square)
 
 #### 限流
 

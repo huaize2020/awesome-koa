@@ -33,6 +33,7 @@ English | [简体中文](./README.md)
     - [Session](#session)
     - [Cookies](#cookies)
     - [Caching](#caching)
+    - [WebSocket](#websocket)
     - [Rate Limiting](#rate-limiting)
     - [Documentation](#documentation)
     - [Security](#security)
@@ -241,6 +242,10 @@ English | [简体中文](./README.md)
 - [koa-conditional-get](https://github.com/koajs/conditional-get) - Conditional GET support. ![](https://img.shields.io/github/stars/koajs/conditional-get.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-conditional-get.svg?style=flat-square)
 - [koa-cache-lite](https://github.com/mkozjak/koa-cache-lite) - Zero-dependency koa router cache. ![](https://img.shields.io/github/stars/mkozjak/koa-cache-lite.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-cache-lite.svg?style=flat-square)
 - [koa-router-cache](https://github.com/nswbmw/koa-router-cache) - Router cache middleware for koa. ![](https://img.shields.io/github/stars/nswbmw/koa-router-cache.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-router-cache.svg?style=flat-square)
+
+#### WebSocket
+
+- [koa-easy-ws](https://github.com/b3nsn0w/koa-easy-ws) - Simple Koa middleware for websocket handling. ![](https://img.shields.io/github/stars/b3nsn0w/koa-easy-ws.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-easy-ws.svg?style=flat-square)
 
 #### Rate Limiting
 
