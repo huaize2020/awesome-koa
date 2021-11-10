@@ -23,7 +23,7 @@
     - [CSS预处理器](#css预处理器)
     - [主体解析(Body解析)](#主体解析body解析)
     - [工具](#工具)
-    - [模板引擎](#模板引擎)
+    - [视图渲染](#视图渲染)
     - [文件服务](#文件服务)
     - [路由和挂载](#路由和挂载)
     - [授权/鉴权](#授权鉴权)
@@ -45,8 +45,9 @@
 ## 官方文档
 
 - [官网](https://koajs.com/)
-- [仓库](https://github.com/koajs/koa)
+- [仓库](https://github.com/koajs/koa) ![](https://img.shields.io/github/stars/koajs/koa.svg?style=social&label=Star)
 - [Wiki](https://github.com/koajs/koa/wiki)
+- [案例](https://github.com/koajs/koa/examples) ![](https://img.shields.io/github/stars/koajs/examples.svg?style=social&label=Star)
 
 ## 资源
 
@@ -102,7 +103,7 @@
 - [koa-xml-body](https://github.com/creeperyang/koa-xml-body) - 解析 xml http 请求正文。 ![](https://img.shields.io/github/stars/creeperyang/koa-xml-body.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-xml-body.svg?style=flat-square)
 - [koa-busboy](https://github.com/dominhhai/koa-busboy) - 处理 koa v2 的 multipart/form-data 数据。 ![](https://img.shields.io/github/stars/dominhhai/koa-busboy.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-busboy.svg?style=flat-square)
 - [koa-json-body](https://github.com/venables/koa-json-body) - 解析合法的 JSON 请求正文。 ![](https://img.shields.io/github/stars/venables/koa-json-body.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-json-body.svg?style=flat-square)
-- [koa-body-parsers](https://github.com/koajs/body-parsers) - Koa请求正文解析器集合。![](https://img.shields.io/github/stars/venables/koa-body-parsers.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-body-parsers.svg?style=flat-square)
+- [koa-body-parsers](https://github.com/koajs/body-parsers) - Koa请求正文解析器集合。![](https://img.shields.io/github/stars/koajs/koa-body-parsers.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-body-parsers.svg?style=flat-square)
 
 #### 工具
 
@@ -111,7 +112,7 @@
 - [koa-connect](https://github.com/vkurchatkin/koa-connect) - 在Koa中使用connect和express中间件。 ![](https://img.shields.io/github/stars/vkurchatkin/koa-connect.svg?style=social&label=Star) ![](https://img.shields.io/npm/dt/koa-connect.svg)
 - [koa-useragent](https://github.com/rvboris/koa-useragent) - 快速显露user-agent的中间件。 ![](https://img.shields.io/github/stars/rvboris/koa-useragent.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-useragent.svg?style=flat-square)
 
-#### 模板引擎
+#### 视图渲染
 
 - [koa-views](https://github.com/queckezz/koa-views) - 可使用几乎任何模板引擎渲染你的视图。 ![](https://img.shields.io/github/stars/queckezz/koa-views.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-views.svg?style=flat-square)
 - [koa-ejs](https://github.com/koajs/ejs) -  Koa视图渲染中间件，支持ejs所有特性。 ![](https://img.shields.io/github/stars/koajs/ejs.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-ejs.svg?style=flat-square)

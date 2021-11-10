@@ -23,7 +23,7 @@ English | [简体中文](./README.md)
     - [CSS Preprocessor](#css-preprocessor)
     - [Body Parsing](#body-parsing)
     - [Utilities](#utilities)
-    - [Templating](#templating)
+    - [View](#view)
     - [File Serving](#file-serving)
     - [Routing and Mounting](#routing-and-mounting)
     - [Authentication](#authentication)
@@ -45,8 +45,9 @@ English | [简体中文](./README.md)
 ## Official
 
 - [Website](https://koajs.com/)
-- [Repository](https://github.com/koajs/koa)
+- [Repository](https://github.com/koajs/koa) ![](https://img.shields.io/github/stars/koajs/koa.svg?style=social&label=Star)
 - [Wiki](https://github.com/koajs/koa/wiki)
+- [example](https://github.com/koajs/koa/examples) ![](https://img.shields.io/github/stars/koajs/examples.svg?style=social&label=Star)
 
 ## Resources
 
@@ -109,7 +110,7 @@ English | [简体中文](./README.md)
 - [koa-connect](https://github.com/vkurchatkin/koa-connect) - Use connect and express middleware in koa. ![](https://img.shields.io/github/stars/vkurchatkin/koa-connect.svg?style=social&label=Star) ![](https://img.shields.io/npm/dt/koa-connect.svg)
 - [koa-useragent](https://github.com/rvboris/koa-useragent) - Fast Middleware exposing user-agent. ![](https://img.shields.io/github/stars/rvboris/koa-useragent.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-useragent.svg?style=flat-square)
 
-#### Templating
+#### View
 
 - [koa-views](https://github.com/queckezz/koa-views) - Render your views with almost any templating engine ![](https://img.shields.io/github/stars/queckezz/koa-views.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-views.svg?style=flat-square)
 - [koa-ejs](https://github.com/koajs/ejs) - A koa view render middleware, support all feature of ejs. ![](https://img.shields.io/github/stars/koajs/ejs.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-ejs.svg?style=flat-square)
