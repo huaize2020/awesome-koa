@@ -257,6 +257,7 @@
 #### 限流
 
 - [rate-limiter-flexible](https://github.com/animir/node-rate-limiter-flexible) - 在单进程或分布式环境中按原子增量Key限制请求以防止任何规模的 DDoS 和暴力攻击。 ![](https://img.shields.io/github/stars/animir/node-rate-limiter-flexible.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/rate-limiter-flexible.svg?style=flat-square)
+- [BetterQueue](https://github.com/Saiop68/better-queue)：基于 Redis 的 Node.js 分布式限流器与任务队列，支持跨进程优先级、延时任务与崩溃恢复。
 - [koa-ratelimit](https://github.com/koajs/ratelimit) - 限流中间件。 ![](https://img.shields.io/github/stars/koajs/ratelimit.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-ratelimit.svg?style=flat-square)
 - [koa-better-ratelimit](https://github.com/tunnckoCore/koa-better-ratelimit) - 支持自定义存储、自定义 ID、自定义错误消息和自定义头。![](https://img.shields.io/github/stars/tunnckoCore/koa-better-ratelimit.svg?style=social&label=Star)  ![](https://img.shields.io/npm/dm/koa-better-ratelimit.svg?style=flat-square)
 - [koa-ip-filter](https://github.com/tunnckoCore/koa-ip-filter) - Koa 中间件，可使用glob模式、数组、字符串、正则表达式或匹配器函数过滤请求 IP 或自定义 ID。 支持自定义 403 Forbidden 消息和自定义 ID。 ![](https://img.shields.io/github/stars/tunnckoCore/koa-ip-filter.svg?style=social&label=Star) ![](https://img.shields.io/npm/dm/koa-ip-filter.svg?style=flat-square)
